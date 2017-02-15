@@ -1,10 +1,10 @@
 <div class="row text-xs-center">
   <div class="col-xs">
-    <h1>Talks</h1>
+    <h1>News</h1>
   </div>
 </div>
 
-{% assign talks = site.data.talks.talks | sort:"date" %}
+{% assign talks = site.data.news.news | sort:"date" %}
 {% for t in talks reversed %}
 <div class="row{% if t != talks.last %} mt-0{% endif %}">
 
@@ -14,7 +14,7 @@
 
   <div class="col-md-9">
     <h5>{{ t.title | escape }}</h5>
-    <p><span class="text-muted">{{ t.location | escape }}
+    <p><span class="text-muted">{{ t.description | escape }}
     {% if t.downloads %} |
     {% for download in t.downloads %}
       <a href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != t.downloads.last %}, {% endif %}{% endfor %}

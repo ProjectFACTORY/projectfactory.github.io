@@ -5,7 +5,7 @@ baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://projectfactory.github.io' # the base hostname & protocol for your site
 
 title: 'Project FACTORY'
-author: 'Cédric Févotte'
+author: ''
 
 languages: [ 'en', 'de' ]
 

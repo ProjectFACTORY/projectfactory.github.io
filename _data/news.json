@@ -1,0 +1,36 @@
+{ 
+  "heading" : {
+    "en" : "Talks",
+    "de" : "Vorträge" },
+
+  "news" : [
+
+    { "date"      : "2016-07-23 00:00:00",
+      "title"     : "Post-doc position available",
+      "description"  : "Postdoc position available within project FACTORY (New paradigms for latent factor estimation) to work on matrix factorisation techniques at large for data processing, funded by the ERC under a consolidator grant (2016-2021).",
+      "downloads" :
+      [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
+          "desc"  : "Announcement"
+        } ] 
+    },
+    { "date"      : "2015-05-07 00:00:00",
+      "title"     : "Monitoring Software Quality Aspects using Software Maps",
+      "description"  : "SAPPHIRE NOW 2015, Orlando, FL, USA",
+    },
+    { "date"      : "2013-11-20 00:00:00",
+      "title"     : "Rendering of Day and Night Sky Phenomena in Interactive 3D Geovirtual Environments",
+      "description"  : "DGKF & DGPF Workshop \"3D-Stadmodelle\", Bonn, Germany",
+      "downloads" :
+      [ { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAZ0ZjcXpQT0s1Yzg/view",
+          "desc"  : "Slides"
+        } ] 
+    },
+    { "date"      : "2013-06-20 00:00:00",
+      "title"     : "Interactive Software Maps for Web-Based Source Code Analysis",
+      "description"  : "Web3D2013, San Sebastian, Spain",
+      "downloads" : [
+      { "href"    : "https://drive.google.com/file/d/0B9sUajZRijJAU2ZqbENPN3BFUXc/view",
+        "desc"    : "Slides"
+      } ]
+    }]
+}
