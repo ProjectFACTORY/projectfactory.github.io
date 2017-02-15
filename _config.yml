@@ -1,52 +1,51 @@
-title: FACTORY
-tagline: New paradigms for latent factor estimation
-author:
-  name: Févotte
-  givenName: Cédric
-  familyName: Boettiger
-  github: ProjectFACTORY
-  email: cedric.fevotte@irit.fr
-url: https://projectfactory.github.io/
+# Site settings
+timezone: Europe/Berlin
 
-username: cboettig
-repo: ProjectFACTORY.github.io/
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://projectfactory.github.io' # the base hostname & protocol for your site
 
-gems:
-  - jekyll-pandoc
+title: 'Project FACTORY'
+author: 'Cédric Févotte'
 
+languages: [ 'en', 'de' ]
+
+google_font_sans_serif: 'Source+Sans+Pro:300'
+
+default_header_img_dimensions: 'width="1024" height="1024"'
+default_thubmnail_img_dimensions: 'width="768" height="768"'
+
+# Handling Reading
+safe: true
 encoding: utf-8
 
-## Markdown Parser 
-markdown: kramdown #pandoc
-markdown_ext: markdown,md
-pandoc:
-  extensions: 
-    - smart
-    - mathjax
-#    - template: 'assets/datauri_template.html'   # Use with 'self-contained' to avoid header text in body
-#    - self-contained                             # Archive images in posts as URIs.  Very slow, for archiving only.  
-#    - mathml                                     # Use mathml for equations (Archival, HTML5/XML valid syntax)
+# Build settings
+markdown: kramdown
 
+# Outputting
+exclude: [
+  'cibuild',
+  'Gemfile',
+  'Gemfile.lock',
+  'package.json',
+  'README.md',
+  'vendor']
 
-permalink: /:year/:month/:day/:title.html
-redirects: yes     ## A flag to turn on the redirects plugin
-pageviews: no    ## toggle on sidebar pageviews 
-twitter_api: yes
-#analytics: UA-18401403-1 ## Google Analytics key (in _includes/analytics.html)
+defaults:
+  - scope:
+      path: ''
+    values:
+      lang: en
+      description: 'Wesite for the ERC project FACTORY'
+  - scope:
+      path: 'de'
+    values:
+      lang: de
+      description: 'Wesite for the ERC project FACTORY'
+  - scope:
+      path: 'en'
+    values:
+      lang: en
 
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-  - .travis.yml
-  - _posts/*.Rmd
-  - _posts/source
-  - assets/_bootstrap-3.1.1
-  - Dockerfile
-  - build.R
-  - _cache
-  - Makefile
-  - deploy.sh
-  - fig.yml
-
+# CSS Minification
+sass:
+  style: compressed

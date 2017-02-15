@@ -1,20 +1,44 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  {% include head.html %}
-  <body prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/"> 
-    {% include navbar.html %}
-    <div class="container"> <!-- Responsive grid layout, doesn't jump to full-width --> 
-      <header>
-        <h1 class="entry-title">{{ page.title }}</h1>
-        <h2>{{ page.subtitle }}</h2>
-      </header>
+<html lang="{{ page.lang }}">
 
-      {{ content }}
+{% include head.html %}
 
-      {% include footer.html %}
-      {% include javascript.html %}
-      {% include analytics.html %}
-    </div>
-  </body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+{% include navbar.html %}
+
+<section id="header" class="container">
+{% include header.html %}
+</section>
+
+<section id="publications" class="container">
+{% include publications.html %}
+</section>
+
+<section id="projects" class="container">
+{% include projects.html %}
+</section>
+
+<section id="talks" class="container">
+{% include talks.html %}
+</section>
+
+<section id="teaching" class="container">
+{% include teaching.html %}
+</section>
+
+<section id="contact" class="container">
+{% include contact.html %}
+</section>
+
+<section id="footer">
+{% include footer.html %}
+</section>
+
+{% include scripts.html %}
+
+</body>
 </html>
-   
