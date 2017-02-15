@@ -1,17 +1,15 @@
-title: Lab Notebook 
-tagline: Theoretical ecology and evolution
+title: FACTORY
+tagline: New paradigms for latent factor estimation
 author:
-  name: Carl Boettiger
-  givenName: Carl
+  name: Févotte
+  givenName: Cédric
   familyName: Boettiger
-  twitter: cboettig
-  github: cboettig
-  mendeley: carl-boettiger
-  email: cboettig@gmail.com
-url: http://www.carlboettiger.info
+  github: ProjectFACTORY
+  email: cedric.fevotte@irit.fr
+url: https://projectfactory.github.io/
 
 username: cboettig
-repo: labnotebook
+repo: ProjectFACTORY.github.io/
 
 gems:
   - jekyll-pandoc
@@ -34,7 +32,7 @@ permalink: /:year/:month/:day/:title.html
 redirects: yes     ## A flag to turn on the redirects plugin
 pageviews: no    ## toggle on sidebar pageviews 
 twitter_api: yes
-analytics: UA-18401403-1 ## Google Analytics key (in _includes/analytics.html)
+#analytics: UA-18401403-1 ## Google Analytics key (in _includes/analytics.html)
 
 
 exclude:
