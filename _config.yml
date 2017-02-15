@@ -17,7 +17,7 @@ gems:
 encoding: utf-8
 
 ## Markdown Parser 
-markdown: pandoc
+markdown: kramdown #pandoc
 markdown_ext: markdown,md
 pandoc:
   extensions: 
