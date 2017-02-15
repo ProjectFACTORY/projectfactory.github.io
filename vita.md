@@ -3,9 +3,6 @@ layout: vita
 title: Vita
 ---
 
-<div typeof = "foaf:Person" about = "{{site.url}}#me"
-     prefix = "schema: http://schema.org/Person#">
-
 employment
 ----------
 
@@ -150,78 +147,6 @@ presentations
     ([doi](http://dx.doi.org/10.1038/npre.2010.4949.1))
     ([slides](http://www.slideshare.net/cboettig/presentation-5348861))
 
-theses
-------
-
-1.  Carl Boettiger (2012). Regime shifts in ecology and evolution (PhD
-    Dissertation). {{ "10.6084/m9.figshare.97218" | doi_parser }}
-2.  Carl Boettiger, Stephen Pacala, David Huse (2007) Ensemble Behavior
-    from Individual Dynamics in Multispecies Forest Populations.
-    *Princeton Physics Dept*. {{ "10.6084/m9.figshare.678304" | doi_parser }}
-    ([pdf](/assets/files/pubs/Boettiger-Pacala-Huse-2007-Princeton-Physics-Dept.pdf%20))
-3.  Carl Boettiger, Joshua Weitz, Simon Levin (2007) Adaptive Dynamics:
-    Branching Phenomena and the Canonical Equation *Princeton Physics
-    Dept*. {{ "10.6084/m9.figshare.678306" | doi_parser }}
-    ([pdf](/assets/files/pubs/Boettiger-Weitz-Levin-2007-Princeton-Physics-Dept.pdf%20))
-4.  Carl Boettiger, David Huse (2006) Clonal Interference Models in
-    Population Genetics. *Princeton Physics Dept*. {{"10.6084/m9.figshare.678305" | doi_parser }}
-    ([pdf](/assets/files/pubs/Boettiger-Huse-2006-Princeton-Physics-Dept.pdf%20))
-
-grants
-------
-
--   2013-2014 Co-PI on **Sloan Foundation** grant for the [rOpenSci
-    Project](http://ropensci.org) $ 180,000.
--   2013-2015 **NSF Postdoctoral Fellow**, [Intersections of Biology and
-    Mathematical and Physical Sciences and
-    Engineering](http://www.nsf.gov/pubs/2012/nsf12497/nsf12497.htm)
-    [DBI-1306697.](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1306697)
-    $138,000. Link to proposal: {{ "10.6084/m9.figshare.652970" |  doi_parser }}
--   2011, 2012 PI on **Department of Energy** Grant No.
-    DE-AC02-05CH11231. 50,000 hr on NERSC supercomputing resources.
--   2009 **IIASA** YSSP fellowship. National Academy of Sciences, NSF
-    Grant No. OISE-0738129, $8,000. proposal: {{"10.6084/m9.figshare.678310" | doi_parser }}
--   2008-2012 Computational Science Graduate Fellowship. **Department of
-    Energy**, Grant No: DE-FG02-97ER25308, 4 yrs x $36,000/yr
-
-awards
-------
-
--   2011 Mendeley & PLoS Binary Battle software competition award,
-    $1,000
--   2011 *Volterra Award* (Best student talk, ESA Theory Section)
--   2007 Elected to Membership in the Society of *Sigma Xi*
--   2007 Allen G. Shenstone Prize in Physics, Princeton University
--   2007 The Class of 1870 Old English Prize, Princeton University
--   2006 Kusaka Memorial Prize in Physics, Princeton University
--   2006 Plasma Physics Fellow, PPPL
-
-service
--------
-
-Reviewer for:
-
--   **2014** Theoretical Ecology, Biodiversity Data Journal, Ecology
-    Letters, Journal of Theoretical Biology
--   **2013** Theoretical Ecology, Francis & Taylor, Ideas in Ecology and
-    Evolution, The R Journal, National Science Foundation, Proceedings
-    of the Royal Society B, Journal of Open Research Software, Canadian
-    Journal of Fisheries and Aquatic Sciences
--   **2012** Theoretical Ecology, Evolution, Methods in Ecology and
-    Evolution, Proceedings of the Royal Society B, PLoS ONE, Ecology,
-    Conservation Letters, Ecology Letters
--   **2011** Theoretical Ecology, Ecological Modelling, Evolution,
-    Methods in Ecology and Evolution, Ecosphere
--   **2010 & prior** Theoretical Ecology, Journal of Mathematical
-    Biology, Ecological Modelling, Ecology
-
-### other service
-
--   Student member for the CBS Dean search. 2011
--   Co-chaired the student group on Open Science. 2010-12
--   Co-chaired the Graduate Teaching Community. 2009-10
--   Student member for the CPB program review. 2010
-
 software
 --------
 
@@ -243,51 +168,5 @@ software
 -   I am also a founding member of the [rOpenSci
     project](http://ropensci.org) under which I have written several
     additional software projects
-
-See my [Github page](https://github.com/cboettig) for a more complete
-list of my software packages.
-
-workshops
----------
-
--   2014 _co-organizer_ "rOpenSci Hackathon (#rOpenHack)", Github HQ in San Fransisco, CA. ([summary](http://ropensci.org/blog/2014/05/14/ropenhack/), [video documentary](https://www.youtube.com/watch?v=iUcm5COsKJo&nofeather=True))
--   2014 _invited to_ "A toolbox for analysis of long-term ecological dynamics using
-    the Kepler Workflow System." A Working group of the National
-    Ecological Analysis and Synthesis Center (**NCEAS**), Santa Barbara,
-    CA.
--   2013 Mathematical Biology Institute (**MBI**) *invited speaker*,
-    [Sustainable Management of Living Natural
-    Resources](http://www.mbi.ohio-state.edu/2013/ws3description.html),
-    Columbus, OH.
--   2013 *invited to* Workforce development, a planning workshop for an
-    NSF software sustainability center: [Institute for Sustainable Earth
-    and Environmental Software](http://isees.nceas.ucsb.edu). Oakland
-    CA.
--   2013 *invited to* Software Lifecycle, a planning workshop for an NSF
-    software sustainability center: [Institute for Sustainable Earth and
-    Environmental Software](http://isees.nceas.ucsb.edu). National
-    Ecological Analysis and Synthesis Center (**NCEAS**), Santa Barbara,
-    CA.
--   2011-2013 National Institute for Mathematical and Biological
-    Synthesis (**NIMBioS**) working group: [Pretty Darn Good
-    Control](http://www.nimbios.org/workinggroups/WG_PDG), Knoxville, TN
--   2009 American Institute for Mathematics, [Stochastic and
-    deterministic spatial modeling in population
-    dynamics](http://www.aimath.org/WWN/populationmodel/), Palo Alto, CA
-
-interviews
-----------
-
-- Tachibana, C. (2014). "The paperless lab" _Science_ 345(6195) pp. 468-470. [10.1126/science.opms.p1400087](http://www.sciencemag.org/site/products/lst_20140613.xhtml)
-- Mascarelli, A. (2014) "Research tools: Jump off the page." *Nature*
-  507, 523–525. {{ "10.1038/nj7493-523a" | doi_parser }}
-- Check Hayden E (2013). "Mozilla Plan Seeks to Debug Scientific
-  Code." *Nature*, 501, pp. 472-472. {{ "10.1038/501472a" | doi_parser }}
-- Van Noorden R (2013). "Data-Sharing: Everything on Display."
-  *Nature*, 500, pp. 243-245. {{ "10.1038/nj7461-243a" | doi_parser }}
-- Gewin, Virginia (2013). "Turning Point: Carl Boettiger"
-    *Nature*, 493 p 711 {{ "10.1038/nj7434-711a" | doi_parser }}
-- Wald, Chelsea (2010). "Scientists Embrace Openness" *Science*.
-  {{ "10.1126/science.caredit.a1000036" | doi_parser }}
 
 
