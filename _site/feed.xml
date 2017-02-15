@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Daniel Limberger</title>
+    <title>Project FACTORY</title>
     <description></description>
-    <link>https://cgcostume.github.io/</link>
-    <atom:link href="https://cgcostume.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Feb 2017 16:31:39 +0100</pubDate>
-    <lastBuildDate>Wed, 15 Feb 2017 16:31:39 +0100</lastBuildDate>
+    <link>https://projectfactory.github.io/</link>
+    <atom:link href="https://projectfactory.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 15 Feb 2017 16:44:57 +0100</pubDate>
+    <lastBuildDate>Wed, 15 Feb 2017 16:44:57 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
   </channel>
