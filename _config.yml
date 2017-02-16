@@ -1,12 +1,37 @@
 # Site settings
-timezone: Europe/Berlin
+#scholar:
+#  use_raw_bibtex_entry: false
+  #bibliography: factory_publis.bib
 
+scholar:
+  locale: en
+  style: _bibliography/mystyle.csl #chicago-fullnote-bibliography
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  source: _bibliography
+  bibliography: factory_publis_full.bib
+  bibliography_template: bib3 # format of each bibliography line (layouts/filename.html)
+
+  #replace_strings: true
+  use_raw_bibtex_entry: true
+
+  # Use this to provide details by clicking a link in each article
+  #details_dir:    bibliography # output dir
+  #details_layout: bibtex.html # template to create html files for detail link
+  details_link:   ' Details'
+
+  #query: "@*"
+
+# Plugins
+gems: ['jekyll/scholar']
+
+timezone: Europe/Berlin
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://projectfactory.github.io' # the base hostname & protocol for your site
-
 title: 'Project FACTORY'
 author: ''
-
 languages: [ 'en', 'de' ]
 
 google_font_sans_serif: 'Source+Sans+Pro:300'
@@ -15,7 +40,8 @@ default_header_img_dimensions: 'width="1024" height="1024"'
 default_thubmnail_img_dimensions: 'width="768" height="768"'
 
 # Handling Reading
-safe: true
+# github uses safe = true, but safe = false allows using the jekyll-scholar plugin in local machine
+safe: false 
 encoding: utf-8
 
 # Build settings
@@ -49,3 +75,6 @@ defaults:
 # CSS Minification
 sass:
   style: compressed
+
+
+
