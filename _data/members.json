@@ -1,0 +1,44 @@
+{
+	
+
+  "members" : [
+  
+	{ 	"name": "Cédric Févotte",
+		"position": "CNRS Senior Researcher",
+		"homepage": "https://www.irit.fr/~Cedric.Fevotte/",
+		"email": "cedric (dot) fevotte (at) irit (dot) fr",
+		"photo": "cedric.jpg"
+    },
+    { 	"name": "Nicolas Dobigeon",
+		"position": "Professor",
+		"homepage" : "http://dobigeon.perso.enseeiht.fr/",
+		"photo": "cedric.jpg"
+    },
+    { 	"name": "Thomas Oberlin",
+		"position": "Assistant Professor",
+		"homepage": "http://oberlin.perso.enseeiht.fr/",
+		"photo": "cedric.jpg"
+    },
+    {	"name": "Alberto Lumbreras",
+		"position": "Postdoc researcher",
+		"homepage": "http://www.albertolumbreras.net",
+		"github": "alumbreras",
+		"twitter": "albertlumbreras",
+		"orcid": "0000-0002-1642-628X",
+		"email": "alberto.lumbreras@irit.fr",
+		"photo": "cedric.jpg"
+    },
+    { 	"name": "Dylan Fagot",
+		"position": "PhD Student",
+		"photo": "cedric.jpg"
+    },
+    { 	"name": "Olivier Gouvert",
+		"position": "PhD Student",
+		"photo": "cedric.jpg"
+    },
+    { 	"name": "Louis Filstroff",
+		"position": "PhD Student",
+		"photo": "cedric.jpg"
+    },
+]
+}

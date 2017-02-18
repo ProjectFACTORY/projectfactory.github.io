@@ -1,0 +1,6 @@
+{% assign members = site.data.members.members %}
+<div class="row">
+{% for m in members %}
+    {% include member.html %}
+{% endfor %}
+</div>
