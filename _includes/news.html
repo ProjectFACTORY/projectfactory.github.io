@@ -1,6 +1,6 @@
-{% assign talks = site.data.news.news | sort:"date" %}
-{% for t in talks reversed %}
-<div class="row{% if t != talks.last %} mt-0{% endif %}">
+{% assign entries = site.data.news.news | sort:"date" %}
+{% for t in entries reversed %}
+<div class="row{% if t != entries.last %} mt-0{% endif %}">
 
   <div class="col-md-3 text-md-right">
     {{ t.date | date : "%x" }}
