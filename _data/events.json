@@ -1,0 +1,21 @@
+{ 
+  "events" : [
+
+    { "date"      : "2016-07-23 00:00:00",
+      "title"     : "Presentation of NIPS papers",
+      "location"  : "ENSEEIHT, Toulouse",
+      "downloads" :
+      [ { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAUXp2SndPTktzdjQ/view",
+          "desc"  : "Slides"
+        } ] 
+    },
+    { "date"      : "2016-07-23 00:00:00",
+      "title"     : "Test event 2",
+      "location"  : "ENSEEIHT, Toulouse",
+      "downloads" :
+      [ { "href"  : "https://drive.google.com/file/d/0B9sUajZRijJAUXp2SndPTktzdjQ/view",
+          "desc"  : "Slides"
+        } ] 
+    }
+    ]
+}
