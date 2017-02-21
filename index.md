@@ -16,7 +16,7 @@ layout: section
 		  under a Consolidator Grant (2016-2021) and coordinated by 
 		  <a href='https://www.irit.fr/~Cedric.Fevotte/'>Cédric Févotte</a>. 
 		  The host institution is CNRS and the project takes place at IRIT, 
-		  Toulouse (France)."
+		  Toulouse (France).
 	  </p>
     </div>
     
