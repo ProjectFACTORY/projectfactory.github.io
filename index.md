@@ -24,7 +24,7 @@ layout: section
 </header>
 
 
-<!--<section id="news" class="container">
+<section id="news" class="container">
 <div class="row text-xs-center">
   <div class="col-xs">
     <h1>News</h1>
@@ -32,4 +32,3 @@ layout: section
 </div>
 {% include news.html %}
 </section>
--->
