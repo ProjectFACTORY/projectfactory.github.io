@@ -20,6 +20,12 @@
 		"homepage": "http://oberlin.perso.enseeiht.fr/",
 		"photo": "cedric.jpg"
     },
+    { 	"name": "Herwig Wendt",
+		"status": "advisor",
+		"position": "CNRS Researcher",
+		"homepage": "https://www.irit.fr/~Herwig.Wendt/",
+		"photo": "cedric.jpg"
+    },
     {	"name": "Alberto Lumbreras",
 		"status": "postdoc",
 		"position": "Postdoc researcher",
