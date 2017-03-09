@@ -10,12 +10,12 @@ layout: section
     
     <div class="col-md-8">
       <h1>FACTORY</h1>
-      <p class="lead">New paradigms for latent factor estimation.<br> (site under construction)</p>
+      <p class="lead">New paradigms for latent factor estimation. <br> <b>(site under construction)</b> </p>
       <p class="text-xs-left">
-		  FACTORY is a project funded by the European Research Council 
+		  FACTORY is a project funded by the <a href='https://erc.europa.eu/'> European Research Council </a>
 		  under a Consolidator Grant (2016-2021) and coordinated by 
 		  <a href='https://www.irit.fr/~Cedric.Fevotte/'>Cédric Févotte</a>. 
-		  The host institution is CNRS and the project takes place at IRIT, 
+		  The host institution is <a href='http://www.cnrs.fr'>CNRS</a> and the project takes place at <a href='https://www.irit.fr'>IRIT</a>, 
 		  Toulouse (France).
 	  </p>
     </div>
