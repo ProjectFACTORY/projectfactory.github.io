@@ -2,7 +2,7 @@
   "news" : [
     { "date"      	 : "2016-04-01 00:00:00", # year-month-day
       "title"     	 : "Post-doc position available",
-      "description"  : "Postdoc position available within project FACTORY (New paradigms for latent factor estimation) to work on matrix factorisation techniques at large for data processing, funded by the ERC under a consolidator grant (2016-2021).",
+      "description"  : "Postdoc on optimisation for matrix factorisation",
       "downloads" :
       [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
           "desc"  : "Announcement"
