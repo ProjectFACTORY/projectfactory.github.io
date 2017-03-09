@@ -10,7 +10,7 @@ layout: section
     
     <div class="col-md-8">
       <h1>FACTORY</h1>
-      <p class="lead">New paradigms for latent factor estimation. <br> </p>
+      <p class="lead">New paradigms for latent factor estimation <br> </p>
       <p class="text-xs-left">
 		  FACTORY is a project funded by the <a href='https://erc.europa.eu/'> European Research Council </a>
 		  under a Consolidator Grant (2016-2021) and coordinated by 
