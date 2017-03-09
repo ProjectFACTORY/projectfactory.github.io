@@ -29,7 +29,7 @@ layout: section
 <section id="news" class="container">
 <div class="row text-xs-center">
   <div class="col-xs">
-    <h1>News</h1>
+    <h1>news</h1>
   </div>
 </div>
 {% include news.html %}
