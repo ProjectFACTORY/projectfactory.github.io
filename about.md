@@ -1,9 +1,9 @@
 ---
 layout: section
-title: About
+title: about
 ---
 
-#### Project Abstract
+#### Project abstract
 
 Data is often available in matrix form, in which columns are samples, and 
 processing of such data often entails finding an approximate factorisation of 
@@ -71,6 +71,5 @@ the Beach Boys.*
 
 <img src="img/datamining.png" alt="data mining">
 
-*Images credit: DigitalGlobe (images of Port-au-Prince released in
-support of Haiti's 2010 earthquake).*
+*Images credit: DigitalGlobe*
 
