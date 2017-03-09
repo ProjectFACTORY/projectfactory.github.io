@@ -5,7 +5,7 @@
       "description"  : "Optimisation for matrix factorisation",
       "downloads" :
       [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
-          "desc"  : "Announcement"
+          "desc"  : "announcement"
         } ] 
     }]
 }
