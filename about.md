@@ -61,7 +61,7 @@ processing** (speech enhancement, music remastering),
 
 #### Spectral analysis
 
-<img src="img/spectral.png" alt="unmixing">
+<p style="text-align: center;"> <img src="img/spectral.png" alt="unmixing"> </p>
 
 *Image credits: NASA/Aviris instrument (center) &amp; ESO/Muse
 instrument (right). Music data excerpt: <em>God Only Knows</em> by
@@ -69,7 +69,7 @@ the Beach Boys.*
             
 #### Data mining
 
-<img src="img/datamining.png" alt="data mining">
+<p style="text-align: center;"> <img src="img/datamining.png" alt="data mining"> </p>
 
 *Images credit: DigitalGlobe*
 
