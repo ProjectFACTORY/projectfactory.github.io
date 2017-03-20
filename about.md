@@ -56,6 +56,7 @@ processing** (speech enhancement, music remastering),
 <p style="text-align: center;"><img src="img/unmixing.png" alt="unmixing"></p>
 
 *Images copyright: C. Févotte*
+
 ---
 
 ## Examples of data & applications considered in the project
