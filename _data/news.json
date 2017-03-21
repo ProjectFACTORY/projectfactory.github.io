@@ -10,7 +10,7 @@
       [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
           "desc"  : "announcement"
         } ] 
-    }
+    },
 
       { "date"      	 : "2016-04-01 00:00:00", # year-month-day
       "title"     	 : "Postdoc position available",
