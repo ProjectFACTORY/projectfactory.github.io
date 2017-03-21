@@ -1,9 +1,9 @@
 ---
 layout: section
 ---
-<header>
+<!--<header>-->
   <!-- <div class="row flex-items-xs-center text-xs-center"> -->
-  <!--<div class="row text-xs-center">-->
+  <div class="row text-xs-center">
 	  
     <div class="col-md-6 col-sm-8">
       <img class="rounded img-fluid" width="250" height="250" src="/img/logo_ERC.jpeg" alt="logo">
@@ -23,8 +23,8 @@ layout: section
 	  <p> <b>(site under construction)</b> </p>
     </div>
     
-  <!--</div> -->
-</header>
+  </div>
+<!--</header>-->
 
 
 <section id="news" class="container">
