@@ -6,24 +6,28 @@
 		"position": "CNRS Senior Researcher",
 		"homepage": "https://www.irit.fr/~Cedric.Fevotte/",
 		"email": "cedric (dot) fevotte (at) irit (dot) fr",
+		"googlescholar": "https://scholar.google.dk/citations?user=kAWEUq0AAAAJ&hl=en",
 		"photo": "cedric.jpg"
     },
     { 	"name": "Nicolas Dobigeon",
 		"status": "advisor",
 		"position": "Professor",
 		"homepage" : "http://dobigeon.perso.enseeiht.fr/",
+		 "googlescholar": "https://scholar.google.dk/citations?user=YPQFwDYAAAAJ&hl=en",
 		"photo": "nico.png"
     },
     { 	"name": "Thomas Oberlin",
 		"status": "advisor",
 		"position": "Assistant Professor",
 		"homepage": "http://oberlin.perso.enseeiht.fr/",
-		"photo": "thomas.jpg"
+		"googlescholar": "https://scholar.google.dk/citations?user=iqotTk4AAAAJ&hl=en",
+		"photo": "thomas2.png"
     },
     { 	"name": "Herwig Wendt",
 		"status": "advisor",
 		"position": "CNRS Researcher",
 		"homepage": "https://www.irit.fr/~Herwig.Wendt/",
+		"googlescholar": "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=fr",
 		"photo": "herwig.gif"
     },
     {	"name": "Alberto Lumbreras",
@@ -32,7 +36,6 @@
 		"homepage": "http://www.albertolumbreras.net",
 		"github": "alumbreras",
 		"twitter": "albertlumbreras",
-		"orcid": "0000-0002-1642-628X",
 		"email": "alberto.lumbreras@irit.fr",
 		"photo": "alberto.jpg"
     },
@@ -44,6 +47,7 @@
     { 	"name": "Louis Filstroff",
 		"status": "phd",
 		"position": "PhD Student",
+		"photo": "white.png"
     },
     { 	"name": "Olivier Gouvert",
 		"status": "phd",

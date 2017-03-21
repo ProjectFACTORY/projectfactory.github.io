@@ -1,49 +1,32 @@
 {% assign members = site.data.members.members %}
 
 <!-- <div style="text-align: center;"> -->
-<ul>
-<li><h5>Principal Investigator</h5> </li>
-</ul>
-<div class="row">
+<div class="row flex-items-md-center text-md-center">
+<div class="row col-md-12">
 {% for m in members %}
-  {% if m.status == 'principal' %}
+{% unless m.status == 'advisor'%}
+  <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
     {% include member.html %}
-  {% endif %}
-{% endfor %}
-</div>
-
-<ul>
-<li><h5>Postdocs</h5> </li>
-</ul>
-<div class="row">
-{% for m in members %}
-  {% if m.status == 'postdoc' %}
-    {% include member.html %}
-  {% endif %}
-{% endfor %}
-</div>
-
-<ul>
-<li><h5>PhD students</h5> </li>
-</ul>
-<div class="row">
-{% for m in members %}
-  {% if m.status == 'phd' %}
-    {% include member.html %}
-  {% endif %}
+   </div>
+ {% endunless %}
 {% endfor %}
 </div>
 
 
-<ul>
-<li><h5>Advisory committee</h5> </li>
-</ul>
-<div class="row">
+<div class="row flex-items-xs-center text-xs-center">
+<h4>Advisory committee</h4>
+<div class="row col-md-12">
 {% for m in members %}
   {% if m.status == 'advisor' %}
+  <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
     {% include member.html %}
+   </div>
+
   {% endif %}
 {% endfor %}
 </div>
 
+</div>
+
+</div>
 <!--</div>-->
