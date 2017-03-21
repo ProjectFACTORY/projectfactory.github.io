@@ -77,6 +77,13 @@ h1 {
     margin: 1rem 0;
   }
 
+<!-- new to try to fix mal dimensioning in Chrome -->
+img {
+    width:100%;     /* ADD This property to local stylesheet */
+    max-width: 400px;  /* ADD This property to local stylesheet */
+    height: auto;    /* ADD This property to local stylesheet */
+}
+
   .navbar-toggler {
     border: none;
     margin-bottom: -1rem;
