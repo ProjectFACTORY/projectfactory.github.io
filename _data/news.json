@@ -3,7 +3,7 @@
   
     [
       
-      { "date"      	 : "2016-04-01 00:00:00", # year-month-day
+      { "date"      	 : "2017-01-20 00:00:00", # year-month-day
       "title"     	 : "Postdoc position available",
       "description"  : "Optimisation for matrix factorisation",
       "downloads" :
