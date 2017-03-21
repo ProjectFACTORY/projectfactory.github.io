@@ -2,7 +2,9 @@
 layout: section
 ---
 <header>
-  <div class="row flex-items-xs-center text-xs-center">
+  <!--<div class="row flex-items-xs-center text-xs-center">-->
+  <div class="flex-items-xs-center text-xs-center">
+
   <!--<div class="row text-xs-center">-->
 	  
     <div class="col-md-6 col-sm-8">
