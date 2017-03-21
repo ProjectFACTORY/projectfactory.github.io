@@ -1,0 +1,51 @@
+{% assign members = site.data.members.members %}
+
+<!-- <div style="text-align: center;"> -->
+<div class="row flex-items-md-center text-md-center">
+<li><h5>Principal Investigator</h5> </li>
+</ul>
+<div class="row col-md-12">
+{% for m in members %}
+  {% if m.status == 'principal' %}
+    {% include member.html %}
+  {% endif %}
+{% endfor %}
+</div>
+<br>
+<ul>
+<li><h5>Postdocs</h5> </li>
+</ul>
+
+<div class="row col-md-12">
+{% for m in members %}
+  {% if m.status == 'postdoc' %}
+    {% include member.html %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<ul>
+<li><h5>PhD students</h5> </li>
+</ul>
+<div class="row col-md-12">
+{% for m in members %}
+  {% if m.status == 'phd' %}
+    {% include member.html %}
+  {% endif %}
+{% endfor %}
+</div>
+
+
+<ul>
+<li><h5>Advisory committee</h5> </li>
+</ul>
+<div class="row col-md-12">
+{% for m in members %}
+  {% if m.status == 'advisor' %}
+    {% include member.html %}
+  {% endif %}
+{% endfor %}
+</div>
+
+</div>
+<!--</div>-->
