@@ -3,6 +3,11 @@
   
     [
       
+            { "date"      	 : "2016-02-28 00:00:00", # year-month-day
+      "title"     	 : "Herwig Wendt receives the EURASIP 2017 Early Career Award",
+      "description"  : "Herwig Wendt is awarded by the European Association for Signal Processing for Significant Contributions to Statistical Inference in Multivariate Multidimensional Multifractal Analysis"}
+
+      
       { "date"      	 : "2017-01-20 00:00:00", # year-month-day
       "title"     	 : "Postdoc position available",
       "description"  : "Optimisation for matrix factorisation",
@@ -17,9 +22,6 @@
       "description"  : ""},
 
 
-      { "date"      	 : "2016-02-28 00:00:00", # year-month-day
-      "title"     	 : "Herwig Wendt receives the EURASIP 2017 Early Career Award for Significant Contributions to Statistical Inference in Multivariate Multidimensional Multifractal Analysis",
-      "description"  : ""}
 
 
 ]
