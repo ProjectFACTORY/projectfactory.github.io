@@ -4,7 +4,7 @@ layout: section
 <section id="logo" class="container" style='padding-top:0rem; margin-top:-0rem;'>
 
 	  <!-- Image takes 5 (out of 12) columns. Adapted margins. z-index to put it over navigation bar-->
-      <div class='row col-md-3 col-xs-2' style='margin-left:6rem; margin-top:-3rem;' >
+      <div class='row col-md-3 col-xs-8' style='margin-left:6rem; margin-top:-3rem;' >
          <img class="rounded img-fluid" width="400" height="400" src="/img/logo_ERC.jpeg" alt="logo">
       </div>
       
