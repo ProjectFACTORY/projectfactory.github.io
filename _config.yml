@@ -28,7 +28,7 @@ scholar:
 
   source: _bibliography
   bibliography: factory_publis_full.bib
-  bibliography_template: bib3 # format of each bibliography line (layouts/filename.html)
+  bibliography_template: bib # format of each bibliography line (layouts/filename.html)
 
   #replace_strings: true
   use_raw_bibtex_entry: true

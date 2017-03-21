@@ -1,28 +1,20 @@
 ---
 ---
-{{reference}}
+<div class="text-justify">
+{{ reference }}
+</div>
 
-<div id="{{key}}-materials">
-  <ul class="nav nav-pills">
-    {% if entry.abstract %}
-    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
-    {% endif %}
-
-    <li><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
-    <div id="{{key}}-bibtex" style="display:none;">
-    <pre class="collapse">{{entry.bibtex}}</pre>
-    </div>
-
-    {% if link %}
-    <li><a href="{{link}}">Download</a></li>
-    {% endif %}
+<div>
     {% if entry.doi %}
-    <li>DOI: <a href="http://dx.doi.org/{{entry.doi}}">{{entry.doi}}</a></li>
+    <span><a href="{{ entry.doi | prepend: 'http://doi.org/' }}">doi</a></span>
     {% endif %}
-  </ul>
+    {% if entry.hal_id %}
+    <span><a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">hal</a></span>
+    {% endif %}
+</div>
 
-  {% if entry.abstract %}
-  <p id="{{key}}-abstract" class="collapse">{{entry.abstract}}</p>
-  {% endif %}
-
+<div>
+    {% if entry.pdf %}
+    <span><a href="{{ entry.pdf }}">pdf</a></span>
+    {% endif %}
 </div>
