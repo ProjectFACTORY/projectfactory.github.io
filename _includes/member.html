@@ -1,7 +1,8 @@
 <div class="col-lg-3 col-md-4 col-sm-6 mb-1" style='text-align:center'>
-  <!-- <img class="rounded-circle img-fluid"  src="/img/{{m.photo}}"> -->
+  <!--{% if m.photo %}<img class="rounded img-fluid"  src="/img/{{m.photo}}"  width="150px" height="100px">{% endif %}-->
+
   <h5 class="mt-1" > <a href="{{m.homepage}}">{{ m.name | escape }}</a></h5>
-  <p> {{m.position}}</p>
+  {% unless m.status == "phd" or m.status == "postdoc" %}<p> {{m.position}}</p> {% endunless %}
   <p class="socialicons">
 <a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
 {% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}

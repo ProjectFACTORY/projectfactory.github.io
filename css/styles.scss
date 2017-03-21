@@ -5,12 +5,20 @@
 
 // variables override
 
+
+
+
+
+
 $brand-color-0: rgb(  0,  85, 124);
-$brand-color-1: rgb( 24, 109, 148);
+$brand-color-1: rgb( 24, 109, 148); // links
 $brand-color-2: rgb( 52, 136, 173);
-$brand-color-3: rgb(129, 193, 220);
+$brand-color-3: rgb(129, 193, 220); // link hover
 $brand-color-4: rgb(187, 229, 243);
 $brand-color-5: rgb(238, 246, 254);
+
+$brand-color-6: rgb(95, 102, 108); // sub-text in announcements (mute)
+
 
 $code-color: $brand-color-2;
 
@@ -25,6 +33,7 @@ $headings-font-weight: 300;
 $brand-dark: $brand-color-1;
 $brand-light: $brand-color-4;
 $brand-primary: $brand-color-2;
+$text-muted: $brand-color-6;
 
 $jumbotron-bg: transparent;
 $jumbotron-padding: 0rem;
@@ -39,7 +48,9 @@ $link-hover-decoration: none;
 ;
 
 // common
-
+body {
+  color: #000
+}
 p {
   hyphens: auto;
   @hyphenation-resource

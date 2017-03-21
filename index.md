@@ -31,9 +31,10 @@ layout: section
        </div>
     
      </div>
-
 </section>
+
 ---
+
 <section id="news" class="container" style='padding-top:0rem; margin-top:-2rem;'>
 <div class="row text-xs-center">
   <div class="col-xs">

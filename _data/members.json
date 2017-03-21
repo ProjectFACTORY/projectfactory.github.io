@@ -12,19 +12,19 @@
 		"status": "advisor",
 		"position": "Professor",
 		"homepage" : "http://dobigeon.perso.enseeiht.fr/",
-		"photo": "cedric.jpg"
+		"photo": "nico.png"
     },
     { 	"name": "Thomas Oberlin",
 		"status": "advisor",
 		"position": "Assistant Professor",
 		"homepage": "http://oberlin.perso.enseeiht.fr/",
-		"photo": "cedric.jpg"
+		"photo": "thomas.jpg"
     },
     { 	"name": "Herwig Wendt",
 		"status": "advisor",
 		"position": "CNRS Researcher",
 		"homepage": "https://www.irit.fr/~Herwig.Wendt/",
-		"photo": "cedric.jpg"
+		"photo": "herwig.gif"
     },
     {	"name": "Alberto Lumbreras",
 		"status": "postdoc",
@@ -34,22 +34,21 @@
 		"twitter": "albertlumbreras",
 		"orcid": "0000-0002-1642-628X",
 		"email": "alberto.lumbreras@irit.fr",
-		"photo": "cedric.jpg"
+		"photo": "alberto.jpg"
     },
     { 	"name": "Dylan Fagot",
 		"status": "phd",
 		"position": "PhD Student",
-		"photo": "cedric.jpg"
+		"photo": "dylan.jpg"
     },
     { 	"name": "Louis Filstroff",
 		"status": "phd",
 		"position": "PhD Student",
-		"photo": "cedric.jpg"
     },
     { 	"name": "Olivier Gouvert",
 		"status": "phd",
 		"position": "PhD Student",
-		"photo": "cedric.jpg"
+		"photo": "olivier.jpg"
     },
 ]
 }
