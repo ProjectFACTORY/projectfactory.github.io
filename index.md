@@ -23,8 +23,7 @@ layout: section
           <p class="text-xs-left">
 		  FACTORY is a scientific project funded by the <a href='https://erc.europa.eu/'> European Research Council </a>
 		  under a Consolidator Grant (2016-2021) and coordinated by 
-		  <a href='https://www.irit.fr/~Cedric.Fevotte/'>Cédric Févotte</a>. 
-		  The host institution is <a href='http://www.cnrs.fr'>CNRS</a> and the project takes place at <a href='https://www.irit.fr'>Institut de Recherche en Informatique de Toulouse (IRIT)</a>, France.		  
+		  <a href='https://www.irit.fr/~Cedric.Fevotte/'>Cédric Févotte</a> (<a href='http://www.cnrs.fr'>CNRS</a>) at the <a href='https://www.irit.fr'>Institut de Recherche en Informatique de Toulouse (IRIT)</a>, France.		  
 		  <br>		  
 	      </p>
        </div>
