@@ -2,6 +2,7 @@
 layout: section
 ---
 <!--<header>-->
+<section class = "container">
   <!-- <div class="row flex-items-xs-center text-xs-center"> -->
   <div class="row text-xs-center">
 	  
@@ -25,7 +26,7 @@ layout: section
     
   </div>
 <!--</header>-->
-
+</section>
 
 <section id="news" class="container">
 <div class="row text-xs-center">
