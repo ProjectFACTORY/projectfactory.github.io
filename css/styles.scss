@@ -90,6 +90,20 @@ img {
     cursor: pointer;
   }
 
+
+.nav a {
+    font-weight: bold;
+    padding-left:8px;
+    padding-right:8px;
+    text-decoration: none;
+}
+
+.nav>li>a:hover,.nav>li>a:focus {
+	text-decoration:none;
+	background-color:#eee;
+}
+
+
   .dropdown-menu {
     border: none;
   }
