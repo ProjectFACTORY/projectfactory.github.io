@@ -24,8 +24,9 @@
     {% endif %}
     </h5>
     
+    <p><span class="text-muted">
     {% if t.description %}
-       <p><span class="text-muted">{{ t.description | escape }}
+       {{ t.description | escape }}
     {% endif %}
     
     {% if t.downloads and links_in_title == false%} 
