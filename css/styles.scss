@@ -40,6 +40,11 @@ $link-hover-decoration: none;
   "bootstrap-custom"
 ;
 
+// prevents the navbar from shifting horizontally when scroll appears
+html { 
+  overflow-y: scroll; 
+}
+
 // common
 body {
   color: #000
