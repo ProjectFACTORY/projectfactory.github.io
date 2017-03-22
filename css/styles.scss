@@ -45,10 +45,10 @@ html {
   overflow-y: scroll; 
 }
 
-// common
 body {
   color: #000
 }
+
 p {
   hyphens: auto;
   @hyphenation-resource
@@ -59,29 +59,11 @@ h1 {
 }
 
 .navbar {
-
   background-color: $body-bg;
-
-  #lang-select {
-
-    margin-left: 1rem;
-
-    > li.nav-item + .nav-item {
-      margin-left: 0.25rem;
-    }
-  }
 
   img {
     margin: 1rem 0;
   }
-
-// fix mal dimensioning in Chrome
-//img {
-//    width:100%;
-//    max-width: 10px; 
-//    height: auto;
-//}
-
 
   .navbar-toggler {
     border: none;
@@ -89,19 +71,20 @@ h1 {
     cursor: pointer;
   }
 
-.nav a {
+  .nav a {
     font-weight: bold;
+    margin-left: -8px;
+    margin-right: -8px;
     padding-left:8px;
     padding-right:8px;
     text-decoration: none;
-}
+  }
 
-// Hover with grey background in navbar
-.nav>li>a:hover,.nav>li>a:focus {
+  // Hover with grey background in navbar
+  .nav>li>a:hover,.nav>li>a:focus {
 	text-decoration:none;
 	background-color:#eee;
-}
-
+  }
 
   .dropdown-menu {
     border: none;
@@ -166,9 +149,6 @@ footer div {
   border-bottom-right-radius: $border-radius;
 }
 
-.project {
-  padding-bottom: 1rem; }
-
 .blueimp-gallery-controls {
 
   > .prev, > .next {
@@ -212,17 +192,6 @@ footer div {
     background-color: transparent;
     border-radius: .25rem;
   }
-}
-
-.form-control-static {
-  line-height: 1.5; 
-}
-
-form #formspree-nobot {
-  // display: none;  // this does not work since validate for no bot cannot process
-  visibility: hidden;
-  height: 0;
-  margin-bottom: 0;
 }
 
 @-webkit-keyframes sk-scaleout {
