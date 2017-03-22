@@ -41,19 +41,28 @@ processing** (speech enhancement, music remastering),
 
 #### General principle of LFE
 
-<p style="text-align: center;"><img src="img/lfe_sample.png" alt="lfe"></p>
-
+  <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
+     <img src="img/lfe_sample.png" alt="lfe">
+  </div>
+      
 #### LFE for dimensionality reduction (e.g., coding, low-dimensional embedding)
 
-<p style="text-align: center;"><img src="img/dimreduc.png" alt="dim reduc"></p>
+  <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
+     <img src="img/dimreduc.png" alt="dim reduc">
+  </div>
 
 #### LFE for matrix completion (e.g., collaborative filtering, inpainting)
 
-<p style="text-align: center;"><img src="img/interpolation.png" alt="interpolation"></p>
-
+  <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
+     <img src="img/interpolation.png" alt="interpolation">
+  </div>
+  
 #### LFE for unmixing (e.g., source separation, latent topic discovery)
 
-<p style="text-align: center;"><img src="img/unmixing.png" alt="unmixing"></p>
+  <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
+	<img src="img/unmixing.png" alt="unmixing">
+  </div>
+
 
 *Images copyright: C. Févotte*
 
@@ -63,15 +72,20 @@ processing** (speech enhancement, music remastering),
 
 #### Spectral analysis
 
-<p style="text-align: center;"> <img src="img/spectral.png" alt="unmixing"> </p>
-
-*Image credits: NASA/Aviris instrument (center) &amp; ESO/Muse
+  <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
+    <img src="img/spectral.png" alt="unmixing">
+  <i>Image credits: NASA/Aviris instrument (center) &amp; ESO/Muse
 instrument (right). Music data excerpt: <em>God Only Knows</em> by
-the Beach Boys.*
+the Beach Boys.</i>
+  </div>
+
+
             
 #### Data mining
 
-<p style="text-align: center;"> <img src="img/datamining.png" alt="data mining"> </p>
+<div class='row col-xs-12 flex-items-md-center'>
+   <img src="img/datamining.png" alt="data mining">
+</div>
 
 *Images credit: DigitalGlobe*
 

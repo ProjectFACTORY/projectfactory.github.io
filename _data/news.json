@@ -3,12 +3,15 @@
   
     [
       
-            { "date"      	 : "2017-02-28 00:00:00", # year-month-day
+            { "date"      	 : "2017-02-28", 
       "title"     	 : "Herwig Wendt receives the EURASIP 2017 Early Career Award",
-      "description"  : "Herwig Wendt is distinguished by the European Association for Signal Processing for \"Significant Contributions to Statistical Inference in Multivariate Multidimensional Multifractal Analysis\" "},
+      "description"  : "Herwig Wendt is distinguished by the European Association for 
+                       Signal Processing for \"Significant Contributions to 
+                       Statistical Inference in Multivariate Multidimensional 
+                       Multifractal Analysis\" "},
 
       
-      { "date"      	 : "2017-01-20 00:00:00", # year-month-day
+      { "date"      	 : "2017-01-20",
       "title"     	 : "Postdoc position available",
       "description"  : "Optimisation for matrix factorisation",
       "downloads" :
@@ -17,7 +20,7 @@
         } ] 
     },
 
-      { "date"      	 : "2016-09-01 00:00:00", # year-month-day
+      { "date"      	 : "2016-09-01", # year-month-day
       "title"     	 : "ERC project FACTORY officially started !",
       "description"  : ""},
 
