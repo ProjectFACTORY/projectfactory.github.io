@@ -3,7 +3,7 @@
   
     [
       
-          { "date"      	 : "2016-03-20", # year-month-day
+          { "date"      	 : "2017-03-20", # year-month-day
       "title"     	 : "[http://www.cnrs.fr/ins2i/spip.php?article2475 Témoignagne] de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC",
       "description"  : ""}, 
       
@@ -16,8 +16,8 @@
 
       
       { "date"      	 : "2017-01-20",
-      "title"     	 : "Postdoc position available",
-      "description"  : "Optimisation for matrix factorisation",
+      "title"     	 : "Postdoc available",
+      "description"  : "Two-year position on optimisation for matrix factorisation",
       "downloads" :
       [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
           "desc"  : "announcement"
@@ -25,7 +25,7 @@
       },
 
       { "date"      	 : "2016-09-01", # year-month-day
-      "title"     	 : "ERC project FACTORY officially started !",
+      "title"     	 : "ERC project FACTORY officially started",
       "description"  : ""},
 
 
