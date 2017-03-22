@@ -4,8 +4,13 @@
     [
       
           { "date"      	 : "2017-03-20", # year-month-day
-      "title"     	 : "[Témoignagne](http://www.cnrs.fr/ins2i/spip.php?article2475) de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC",
-      "description"  : ""}, 
+      "title"     	 : "Témoignagne de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC",
+      "description"  : ""
+       "downloads" :
+      [ { "href"  : "http://www.cnrs.fr/ins2i/spip.php?article2475",
+          "desc"  : "lien"
+        } ]    
+          }, 
       
             { "date"      	 : "2017-02-28", 
       "title"     	 : "Herwig Wendt receives the EURASIP 2017 Early Career Award",
