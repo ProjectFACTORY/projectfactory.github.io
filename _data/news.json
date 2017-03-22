@@ -3,6 +3,10 @@
   
     [
       
+          { "date"      	 : "2016-03-20", # year-month-day
+      "title"     	 : "[http://www.cnrs.fr/ins2i/spip.php?article2475 Témoignagne] de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC",
+      "description"  : ""}, 
+      
             { "date"      	 : "2017-02-28", 
       "title"     	 : "Herwig Wendt receives the EURASIP 2017 Early Career Award",
       "description"  : "Herwig Wendt is distinguished by the European Association for 
@@ -18,7 +22,7 @@
       [ { "href"  : "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf",
           "desc"  : "announcement"
         } ] 
-    },
+      },
 
       { "date"      	 : "2016-09-01", # year-month-day
       "title"     	 : "ERC project FACTORY officially started !",
