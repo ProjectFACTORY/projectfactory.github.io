@@ -15,13 +15,13 @@
 
   <div class="col-md-7">
     <h5>{{ t.title | escape }}
-    {% if t.downloads and links_in_title %}
-    <span style="font-size:1.0rem;">
-    {% for download in t.downloads %}
-      | <a href="{{ download.href }}">{{ download.desc | escape }}</a>
-      {% if download != t.downloads.last %}, {% endif %}{% endfor %}
-    </span>
-    {% endif %}
+       <span style="font-size:1.0rem;">
+       {% if t.downloads and links_in_title %}
+       {% for download in t.downloads %}
+          | <a href="{{ download.href }}">{{ download.desc | escape }}</a>
+          {% if download != t.downloads.last %}, {% endif %}{% endfor %}
+       {% endif %}
+       </span>
     </h5>
     
     <p><span class="text-muted">
