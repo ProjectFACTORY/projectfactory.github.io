@@ -3,7 +3,6 @@ layout: section
 ---
 <section id="logo" class="container" style='padding-top:0rem; margin-top:-0rem;'>
 
-	  <!-- Image takes 5 (out of 12) columns. Adapted margins. z-index to put it over navigation bar-->
       <div class='row col-md-3 col-xs-12' style='margin-top:-3rem;' >
          <img  height="150"  src="/img/logo_ERC.jpeg" alt="logo">
       </div>
@@ -34,7 +33,7 @@ layout: section
 ---
 
 <section id="news" class="container" style='padding-top:0rem; margin-top:-2rem;'>
-<div class="row text-xs-center text-md-center">
+<div class="row text-xs-center">
   <div class="col-xs">
     <h1>news</h1>
   </div>
