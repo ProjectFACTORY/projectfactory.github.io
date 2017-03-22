@@ -1,0 +1,19 @@
+{% assign events = site.data.events.events | sort:"date" %}
+{% for t in events reversed %}
+<div class="row{% if t != events.last %} mt-0{% endif %}">
+
+  <div class="col-md-3 text-md-right">
+    {{ t.date | date : "%x" }}
+  </div>
+
+  <div class="col-md-9">
+    <h5>{{ t.title | escape }}</h5>
+    <p><span class="text-muted">{{ t.location | escape }}
+    {% if t.downloads %} |
+    {% for download in t.downloads %}
+      <a href="{{ download.href }}">{{ download.desc | escape }}</a>{% if download != t.downloads.last %}, {% endif %}{% endfor %}
+    {% endif %}</span></p>
+  </div>
+
+</div>
+{% endfor %}
