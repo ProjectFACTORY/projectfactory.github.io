@@ -42,25 +42,25 @@ processing** (speech enhancement, music remastering),
 #### General principle of LFE
 
   <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
-     <img src="img/lfe_sample.png" alt="lfe">
+     <img class='img-responsive' src="img/lfe_sample.png" alt="lfe">
   </div>
       
 #### LFE for dimensionality reduction (e.g., coding, low-dimensional embedding)
 
   <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
-     <img src="img/dimreduc.png" alt="dim reduc">
+     <img class='img-responsive' src="img/dimreduc.png" alt="dim reduc">
   </div>
 
 #### LFE for matrix completion (e.g., collaborative filtering, inpainting)
 
   <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
-     <img src="img/interpolation.png" alt="interpolation">
+     <img class='img-responsive' src="img/interpolation.png" alt="interpolation">
   </div>
   
 #### LFE for unmixing (e.g., source separation, latent topic discovery)
 
   <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
-	<img src="img/unmixing.png" alt="unmixing">
+	<img class='img-responsive' src="img/unmixing.png" alt="unmixing">
   </div>
 
 
@@ -73,7 +73,7 @@ processing** (speech enhancement, music remastering),
 #### Spectral analysis
 
   <div class='row col-xs-12 flex-items-md-center' style="padding-bottom:5rem;">
-    <img src="img/spectral.png" alt="unmixing">
+    <img class='img-responsive' src="img/spectral.png" alt="unmixing">
   <i>Image credits: NASA/Aviris instrument (center) &amp; ESO/Muse
 instrument (right). Music data excerpt: <em>God Only Knows</em> by
 the Beach Boys.</i>
@@ -84,7 +84,7 @@ the Beach Boys.</i>
 #### Data mining
 
 <div class='row col-xs-12 flex-items-md-center'>
-   <img src="img/datamining.png" alt="data mining">
+   <img class='img-responsive' src="img/datamining.png" alt="data mining">
 </div>
 
 *Images credit: DigitalGlobe*

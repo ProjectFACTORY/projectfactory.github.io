@@ -4,19 +4,12 @@
 @charset "utf-8";
 
 // variables override
-
-
-
-
-
-
 $brand-color-0: rgb(  0,  85, 124);
 $brand-color-1: rgb( 24, 109, 148); // links
 $brand-color-2: rgb( 52, 136, 173);
 $brand-color-3: rgb(129, 193, 220); // link hover
 $brand-color-4: rgb(187, 229, 243);
 $brand-color-5: rgb(238, 246, 254);
-
 $brand-color-6: rgb(95, 102, 108); // sub-text in announcements (mute)
 
 
@@ -77,19 +70,19 @@ h1 {
     margin: 1rem 0;
   }
 
-// new to try to fix mal dimensioning in Chrome
-img {
-    width:100%;     /* ADD This property to local stylesheet */
-    max-width: 400px;  /* ADD This property to local stylesheet */
-    height: auto;    /* ADD This property to local stylesheet */
-}
+// fix mal dimensioning in Chrome
+//img {
+//    width:100%;
+//    max-width: 10px; 
+//    height: auto;
+//}
+
 
   .navbar-toggler {
     border: none;
     margin-bottom: -1rem;
     cursor: pointer;
   }
-
 
 .nav a {
     font-weight: bold;
@@ -98,6 +91,7 @@ img {
     text-decoration: none;
 }
 
+// Hover with grey background in navbar
 .nav>li>a:hover,.nav>li>a:focus {
 	text-decoration:none;
 	background-color:#eee;
