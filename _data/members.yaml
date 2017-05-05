@@ -9,7 +9,7 @@
 
 - name: Nicolas Dobigeon
   status: advisor
-  position: Professor
+  position: INPT Professor
   homepage: http://dobigeon.perso.enseeiht.fr/
   googlescholar: "https://scholar.google.dk/citations?user=YPQFwDYAAAAJ&hl=en"
   photo: nico.png
@@ -17,7 +17,7 @@
     
 - name: Thomas Oberlin
   status : advisor
-  position: Assistant Professor
+  position: INPT Assistant Professor
   homepage: http://oberlin.perso.enseeiht.fr/
   googlescholar: "https://scholar.google.dk/citations?user=iqotTk4AAAAJ&hl=en"
   photo: thomas.png
