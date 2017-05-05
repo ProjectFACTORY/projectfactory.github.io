@@ -2,10 +2,7 @@ news:
 
   - date      	 : 2017-05-05
     title     	 : Nicolas Dobigeon is appointed junior member of the Institut Universitaire de France (IUF)
-    description  : The IUF distinguishes a small number of university professors each year for their research excellence.
-    downloads : 
-      - href: http://www.iufrance.fr/detail-de-lactualite/87.html
-        desc: 2017 selection results
+    description  : The IUF distinguishes a small number of university professors each year for their research excellence
 
   - date      	 : 2017-03-20
     title     	 : Témoignagne de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC
