@@ -58,12 +58,12 @@ defaults:
       path: ''
     values:
       lang: en
-      description: 'Wesite for the ERC project FACTORY'
+      description: 'Website of the ERC project FACTORY'
   - scope:
       path: 'de'
     values:
       lang: de
-      description: 'Wesite for the ERC project FACTORY'
+      description: 'Website of the ERC project FACTORY'
   - scope:
       path: 'en'
     values:
