@@ -4,17 +4,14 @@ news:
     title     	 : Nicolas Dobigeon is appointed junior member of the Institut Universitaire de France (IUF)
     description  : The IUF distinguishes a small number of university professors each year for their research excellence
     downloads : 
-      - href: https://en.wikipedia.org/wiki/Institut_Universitaire_de_France
-        desc: IUF on wikipedia
       - href: http://www.iufrance.fr/detail-de-lactualite/87.html
         desc: 2017 selection results
+      - href: https://en.wikipedia.org/wiki/Institut_Universitaire_de_France
+        desc: IUF on wikipedia
   
 
   - date      	 : 2017-03-20
-    title     	 : Témoignagne de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC
-    downloads :
-      - href: http://www.cnrs.fr/ins2i/spip.php?article2475
-        desc: lien
+    title     	 : <a href="http://www.cnrs.fr/ins2i/spip.php?article2475"> Témoignage </a> de Cédric Févotte recueilli par l'INS2I à l'occasion des 10 ans de l'ERC
 
   - date: 2017-02-28
     title: Herwig Wendt receives the EURASIP 2017 Early Career Award
