@@ -31,6 +31,15 @@ layout: section
 </section>
 
 ---
+<section id="openings" class="container" style='padding-top:0rem; margin-top:-2rem;'>
+<div class="row text-xs-center">
+  <div class="col-xs">
+    <h1>openings</h1>
+  </div>
+</div>
+{% include openings.html %}
+</section>
+
 
 <section id="news" class="container" style='padding-top:0rem; margin-top:-2rem;'>
 <div class="row text-xs-center">
