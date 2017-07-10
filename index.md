@@ -35,9 +35,9 @@ layout: section
 <div class="row text-xs-center">
   <div class="col-xs">
     <h1>openings</h1>
+    Test
   </div>
 </div>
-{% include openings.html %}
 </section>
 
 
