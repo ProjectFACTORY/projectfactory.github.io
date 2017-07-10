@@ -35,10 +35,10 @@ layout: section
 <div class="row text-xs-center">
   <div class="col-xs">
     <h1>openings</h1>
-    Two-year position on optimisation for matrix factorisation. 
-    <a href=https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf> Announcement </a>
   </div>
 </div>
+    Two-year position on optimisation for matrix factorisation. 
+    <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> Announcement </a>
 </section>
 
 
