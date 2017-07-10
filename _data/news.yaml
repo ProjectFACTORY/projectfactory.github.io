@@ -24,12 +24,12 @@ news:
         desc: announcement
 
       
-  - date: 2017-01-20
-    title: Postdoc available
-    description: Two-year position on optimisation for matrix factorisation
-    downloads:
-      - href: "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"
-        desc: announcement
+  #- date: 2017-01-20
+    #title: Postdoc available
+    #description: Two-year position on optimisation for matrix factorisation
+    #downloads:
+      #- href: "https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"
+        #desc: announcement
         
         
   - date: 2016-09-01
