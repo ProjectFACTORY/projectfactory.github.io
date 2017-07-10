@@ -37,7 +37,7 @@ layout: section
     <h1>openings</h1>
   </div>
 </div>
-    Two-year position on optimisation for matrix factorisation. 
+    Two-year position on optimisation for matrix factorisation &amp; dictionary learning. 
     <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> Announcement </a>
 </section>
 
