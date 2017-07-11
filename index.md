@@ -44,12 +44,12 @@ layout: section
   </div>
 </div>
 
-<div class="row flex-items-xs-center flex-items-md-center text-xs-center text-md-center">
+<div class="row flex-items-xs-center text-xs-center">
 
   <div class="col-md-9">
      <p class="text-xs-center">
-    		    Two-year position on optimisation for matrix factorisation &amp; dictionary learning.
-			<a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> Announcement </a>		
+    		   <h5>Two-year position on optimisation for matrix factorisation &amp; dictionary learning.
+			<a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> Announcement </a>	</h5>	
     </p>
   </div>
 </div>
