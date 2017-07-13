@@ -47,7 +47,7 @@ layout: section
 <div class="row flex-items-xs-center text-xs-justify">
   <div class="col-md-9">
      <p class="text-xs-center">
-    		   <h5>Two-year postdoc position on optimisation for matrix factorisation &amp; dictionary learning | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> Announcement </a></h5>	
+    		   <h5>Two-year postdoc position on optimisation for matrix factorisation &amp; dictionary learning | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> announcement </a></h5>	
     </p>
   </div>
 </div>
