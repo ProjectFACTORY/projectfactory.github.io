@@ -50,6 +50,11 @@ layout: section
     		   <h5>Two-year postdoc position on optimisation for dictionary learning &amp; matrix factorisation | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> announcement </a></h5>	
     </p>
   </div>
+    <div class="col-md-9">
+     <p class="text-xs-center">
+    		   <h5>Master 2 internship position  | <a href="http://projectfactory.irit.fr/M2_internship_Factory.pdf"> announcement </a></h5>	
+    </p>
+  </div>
 </div>
 </section>
 
