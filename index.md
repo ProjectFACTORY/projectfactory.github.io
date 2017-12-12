@@ -49,7 +49,7 @@ layout: section
      <p class="text-xs-center">
      <ul>
 		<li><h5>Two-year postdoc position on optimisation for dictionary learning &amp; matrix factorisation | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> announcement </a></h5></li>
-		<li><h5>Master 2 internship position  | <a href="http://projectfactory.irit.fr/M2_internship_Factory.pdf"> announcement </a></h5>	</li>
+		<li><h5>Master 2 internship position on Structured optimisation algorithms for training deep networks  | <a href="http://projectfactory.irit.fr/M2_internship_Factory.pdf"> announcement </a></h5>	</li>
 	 </ul>
     </p>
   </div>
