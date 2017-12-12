@@ -47,12 +47,10 @@ layout: section
 <div class="row flex-items-xs-center text-xs-justify">
   <div class="col-md-9">
      <p class="text-xs-center">
-    		   <h5>Two-year postdoc position on optimisation for dictionary learning &amp; matrix factorisation | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> announcement </a></h5>	
-    </p>
-  </div>
-    <div class="col-md-9">
-     <p class="text-xs-center">
-    		   <h5>Master 2 internship position  | <a href="http://projectfactory.irit.fr/M2_internship_Factory.pdf"> announcement </a></h5>	
+     <ul>
+		<li><h5>Two-year postdoc position on optimisation for dictionary learning &amp; matrix factorisation | <a href="https://www.irit.fr/%7ECedric.Fevotte/factory/announcement.pdf"> announcement </a></h5></li>
+		<li><h5>Master 2 internship position  | <a href="http://projectfactory.irit.fr/M2_internship_Factory.pdf"> announcement </a></h5>	</li>
+	 </ul>
     </p>
   </div>
 </div>
