@@ -47,8 +47,7 @@ layout: section
 <div class="row flex-items-xs-center text-xs-justify">
   <div class="col-md-9">
      <p class="text-xs-center">
-     <ul>
-		<li><h5><a href="http://projectfactory.irit.fr/PhD_FACTORY.pdf"> PhD position </a> on structured optimisation for deep learning (with Edouard Pauwel and Jérôme Bolte) </h5>	</li>	     
+     <ul>		     
 		<li><h5><a href="http://projectfactory.irit.fr/postdoc_FACTORY.pdf"> Postdoc positions </a> on dictionary/representation learning, matrix factorisation </h5></li>
 	 </ul>
     </p>
