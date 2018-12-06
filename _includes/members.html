@@ -12,9 +12,11 @@ img {
 <div class="row col-md-12">
 {% for m in members %}
 {% unless m.status == 'advisor'%}
+{% unless m.status == 'alumni'%}
   <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
     {% include member.html %}
    </div>
+ {% endunless %}
  {% endunless %}
 {% endfor %}
 </div>
@@ -28,6 +30,16 @@ img {
     {% include member.html %}
    </div>
 
+  {% endif %}
+{% endfor %}
+</div>
+
+<h4>Alumni</h4>
+{% for m in members %}
+  {% if m.status == 'alumni' %}
+  <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
+    {% include member.html %}
+   </div>
   {% endif %}
 {% endfor %}
 </div>
