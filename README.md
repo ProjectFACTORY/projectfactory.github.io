@@ -1,8 +1,76 @@
 
 This is the source code for the project FACTORY  [https://projectfactory.github.io/](https://projectfactory.github.io/)
 
-#### Structure 
-The complete site's content is based on a json/xml file per section (e.g., ```contact.json```, ```projects.json```, ```publications.json```, ```talks.json```, and ```teaching.json```) as well as the pages ```_config.yml``` information. 
+# For final users
+In this section we cover the typical use cases:
+
+## Add a team member
+
+Just add the member information in the `/data/members.yaml` file.
+
+	- name: a name 
+	  status: principal | advisor | postdoc | phd | whatever
+	  position: a position title
+	  homepage: http://www.membersite.net
+	  googlescholar: "https://scholar.google.fr/citations?user=myuser123"
+	  orchid:  0000-0001-1234-5678
+	  github:  a github username
+	  twitter: a twitter username
+	  email:   a valid email 
+	  photo:   a filename to be found in /img/
+
+If status is `advisor` the member will be placed in the advisors section. All the other members are presented respecting the order in `members.yaml`.`name`, `status`, `position`, and `email` are mandatory fields.
+
+## Update the publications list
+
+You can just copy paste the output of your JabRef and name it `publications.html` 
+However, it will appear as a stand-alone page without the menu and the style of the site. In order to fix this, add `{% include head.html %}` to the header section of your file:
+
+	<head>
+	{% include head.html %}		
+	<title>JabRef References output</title>
+	... the rest of the file...
+
+
+
+## Add some openings 
+
+Openings are hard coded in the `index.md`. Just add a new html line (see the `<li>` lines) with references or anything you need:
+
+
+	<section id="openings" class="container" style='padding-top:0rem; margin-top:-2rem;'>
+	<div class="row text-xs-center">
+	  <div class="col-xs">
+	    <h1>openings</h1>
+	  </div>
+	</div>
+
+	<div class="row flex-items-xs-center text-xs-justify">
+	  <div class="col-md-9">
+	     <p class="text-xs-center">
+	     <ul>		     
+			<li><h5> Open postdoc positions for <a href="http://projectfactory.irit.fr/postdoccall.pdf"> our project </a> </h5></li>
+		    <li><h5> Open PhD positions for <a href="http://projectfactory.irit.fr/phdcall.pdf"> our project </a> </h5></li>
+		 </ul>
+	    </p>
+	  </div>
+	</div>
+	</section>
+
+## Add some news
+
+Just add the information in the `/data/news.yaml` file:
+
+	  - date: 2017-02-28
+	    title: Julia won the Nobel Prize
+	    description: Our team member Julia Backprop won the Nobel Prize for is work in Deep Quantic Tensor Factorization.
+	    downloads :
+	      - href: http://www.linknobel.org/juliaquanticnobel.html
+		    desc: description of the href
+
+
+# For developers: Site structure 
+The complete site's content is based on a json/xml/yaml file per section (e.g., ```contact.json```, ```projects.json```, ```publications.json```, ```talks.json```, and ```teaching.json```) as well as the pages ```_config.yml``` information. 
 
 
 * Each section has is own file in the root folder.

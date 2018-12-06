@@ -49,7 +49,7 @@ layout: section
      <p class="text-xs-center">
      <ul>		     
 		<li><h5> Looking for outstanding candidates for <a href="http://projectfactory.irit.fr/postdoc_FACTORY.pdf"> postdoc positions </a> on dictionary/representation learning, matrix factorisation. </h5></li>
-	     		<li><h5> Open <a href="http://projectfactory.irit.fr/PhD_FACTORY_2.pdf"> PhD position </a> on representation learning for audio signal processing.</h5></li>
+	     	<li><h5> Open <a href="http://projectfactory.irit.fr/PhD_FACTORY_2.pdf"> PhD position </a> on representation learning for audio signal processing.</h5></li>
 	 </ul>
     </p>
   </div>
