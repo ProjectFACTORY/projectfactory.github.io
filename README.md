@@ -49,8 +49,8 @@ Openings are hard coded in the `index.md`. Just add a new html line (see the `<l
 	  <div class="col-md-9">
 	     <p class="text-xs-center">
 	     <ul>		     
-			<li><h5> Open postdoc positions for <a href="http://projectfactory.irit.fr/postdoccall.pdf"> our project </a> </h5></li>
-		    <li><h5> Open PhD positions for <a href="http://projectfactory.irit.fr/phdcall.pdf"> our project </a> </h5></li>
+		   <li><h5> Open postdoc positions for <a href="http://projectfactory.irit.fr/postdoccall.pdf"> our project </a> </h5></li>
+		   <li><h5> Open PhD positions for <a href="http://projectfactory.irit.fr/phdcall.pdf"> our project </a> </h5></li>
 		 </ul>
 	    </p>
 	  </div>
@@ -66,7 +66,7 @@ Just add the information in the `/data/news.yaml` file:
 	    description: Our team member Julia Backprop won the Nobel Prize for is work in Deep Quantic Tensor Factorization.
 	    downloads :
 	      - href: http://www.linknobel.org/juliaquanticnobel.html
-		    desc: description of the href
+		desc: description of the href
 
 
 # For developers: Site structure 
