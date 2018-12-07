@@ -3,26 +3,35 @@
   {% if m.photo %}<img class="rounded img-fluid"  src="/img/{{m.photo}}"  width="150px" height="150px">{% endif %}
 
   <h5 class="mt-1" > <a href="{{m.homepage}}">{{ m.name | escape }}</a></h5>
-  <p> {{m.position}}
-  {% if m.status == "principal" %}<br><em>Principal Investigator</em>
-  <br>
-  <a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
-  {% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}
-    {% if m.linkedin %}<a href="{{m.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{% endif %}
-    {% if m.github %}<a href="https://github.com/{{m.github}}" title="GitHub"><i class="fa fa-github"></i></a>{% endif %}
-    {% if m.orcid %}<a href="https://orcid.org/{{m.orcid}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{% endif %}
-    {% if m.googlescholar %}<a href="{{m.googlescholar}}" title="Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-  {% endif %}
-  </p>
-  {% unless m.status == "principal" %} 
-  <p class="socialicons">
-    <a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
-    {% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}
-    {% if m.linkedin %}<a href="{{m.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{% endif %}
-    {% if m.github %}<a href="https://github.com/{{m.github}}" title="GitHub"><i class="fa fa-github"></i></a>{% endif %}
-    {% if m.orcid %}<a href="https://orcid.org/{{m.orcid}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{% endif %}
-    {% if m.googlescholar %}<a href="{{m.googlescholar}}" title="Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-  </p>
-  {% endunless %}
-
-
+  <p>{{m.position}}
+	  {% if m.status == "principal" %}
+		  <br> <em>Principal Investigator</em>
+		  <br>
+		  <a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
+			{% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}
+			{% if m.linkedin %}<a href="{{m.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{% endif %}
+			{% if m.github %}<a href="https://github.com/{{m.github}}" title="GitHub"><i class="fa fa-github"></i></a>{% endif %}
+			{% if m.googlescholar %}<a href="{{m.googlescholar}}" title="Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+			{% if m.orcid %}<a href="https://orcid.org/{{m.orcid}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{% endif %}
+	  {% endif %}
+	  {% unless m.status == "principal" or m.status == "alumni" %} 
+		  <p class="socialicons">
+			<a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
+			{% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}
+			{% if m.linkedin %}<a href="{{m.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{% endif %}
+			{% if m.github %}<a href="https://github.com/{{m.github}}" title="GitHub"><i class="fa fa-github"></i></a>{% endif %}
+			{% if m.googlescholar %}<a href="{{m.googlescholar}}" title="Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+			{% if m.orcid %}<a href="https://orcid.org/{{m.orcid}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{% endif %}
+		  </p>
+	  {% endunless %}
+	  {% if m.status == "alumni" %}
+		  <br> <em>currently at {{m.current}} </em>
+		  <br>
+		  <a href="mailto:{{m.email}}" title="email"><i class="fa fa-envelope"></i></a>
+			{% if m.twitter %}<a href="https://twitter.com/{{m.twitter}}" title="Twitter"><i class="fa fa-twitter"></i></a>{% endif %}
+			{% if m.linkedin %}<a href="{{m.linkedin}}" title="LinkedIn"><i class="fa fa-linkedin"></i></a>{% endif %}
+			{% if m.github %}<a href="https://github.com/{{m.github}}" title="GitHub"><i class="fa fa-github"></i></a>{% endif %}
+			{% if m.googlescholar %}<a href="{{m.googlescholar}}" title="Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+			{% if m.orcid %}<a href="https://orcid.org/{{m.orcid}}" title="ORCID ID"><i class="ai ai-orcid"></i></a>{% endif %}
+	  {% endif %}
+	</p>

@@ -43,7 +43,7 @@
   position: Postdoc researcher
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
-  orchid: 0000-0002-1860-0763
+  orcid: 0000-0002-1860-0763
   github: alumbreras
   twitter: albertlumbreras
   email: alberto.lumbreras@irit.fr
@@ -53,6 +53,7 @@
 - name: Dylan Fagot
   status: alumni
   position: PhD Student
+  current: SII
   homepage : https://www.irit.fr/~Dylan.Fagot/
   email: dylan.fagot@irit.fr
   photo: dylan.jpg
