@@ -1,0 +1,87 @@
+<script type="text/javascript">
+<!--
+// Automagically create a dropdown box for the BibTeX type.
+// It reuses the searchfield(algorithm), which means that it is
+// unfortunately not possible to search within the selection.
+
+if (window.addEventListener) {
+	window.addEventListener("load",populateSelect,false) }
+else if (window.attachEvent) {
+	window.attachEvent("onload",populateSelect); }
+
+function populateSelect() {
+	var reftypecol = document.getElementById('reftypecol');
+
+	// find the column with the dropdown
+	var searchTable = document.getElementById('qstable');
+	var tableheaders = searchTable.getElementsByTagName('thead')[0].getElementsByTagName('th');
+	var typecolnum;
+
+	for(var i=0; i<tableheaders.length; i++) {
+		if(tableheaders[i]==reftypecol) { typecolnum = i; break}
+	}
+
+	var allRows = searchTable.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+	var entrytypelist = new Array();
+
+	for(var k=0; k<allRows.length; k++) {
+  		var colsinrow = allRows[k].getElementsByTagName('td');
+  		if(colsinrow.length >= typecolnum) {
+  		var entrytype = getTextContent(colsinrow[typecolnum]);
+  		entrytypelist.push(entrytype);
+  		}
+	}
+
+	// sort the entry types
+	entrytypelist.sort();
+
+	// find each used bibtextype
+	var usedentries = new Array();
+	usedentries.push(entrytypelist[0]);
+	for(j=1; j<entrytypelist.length;j++) {
+  		if(entrytypelist[j]!= entrytypelist[j-1]) {
+  		usedentries.push(entrytypelist[j]);
+  		}
+	}
+
+	// create a select, with all the entries 
+	var reftypeselect = document.createElement('select');
+	reftypeselect.id = 'reftypeselect';
+	
+	var x = reftypeselect.appendChild(document.createElement('option'));
+	x.value = "";
+	x.appendChild(document.createTextNode('BibTeX type'));
+
+	var y = reftypeselect.appendChild(document.createElement('optgroup'));
+	y.label = "";
+
+	for(k=0; k<usedentries.length; k++) {
+  		var reftypeoption = document.createElement('option');
+  		reftypeoption.value = usedentries[k];
+  		reftypeoption.appendChild(document.createTextNode(usedentries[k]));
+  		y.appendChild(reftypeoption);
+	}
+
+	reftypecol.removeChild(reftypecol.firstChild);
+	reftypecol.appendChild(reftypeselect);
+
+	reftypeselect.onchange = filterType;
+}
+
+function filterType(){
+	if(this.value != ""){
+ 		qsfield.value = '^' + this.value + '$';
+	} else {
+		qsfield.value = "";;
+	}
+	showAll()
+	quickSearch(qsfield)
+}
+
+function resetFilter(){
+	var typeselect = document.getElementById('reftypeselect');
+	typeselect.selectedIndex = 0;
+}
+
+-->
+</script>
