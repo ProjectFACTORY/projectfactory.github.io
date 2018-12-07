@@ -1,37 +1,41 @@
 
-This is the source code for the project FACTORY  [https://projectfactory.github.io/](https://projectfactory.github.io/)
+This is the source code for the project FACTORY  [https://projectfactory.github.io/](https://projectfactory.github.io/). This is a Jekyll powered site. Jekyll is the software used by Github to transform *markdown* or *liquid* instructions into html. This is very practical to build simple, elegant websites hosted by Github. 
 
 # For final users
-In this section we cover the typical use cases:
+In this section we cover the typical use cases. To edit things online, just edit a file and commit. Github will re-generate the *_site* folder and the site will be updated.
 
 ## Add a team member
 
 Just add the member information in the `/data/members.yaml` file.
 
 	- name: a name 
-	  status: principal | advisor | postdoc | phd | whatever
+	  status: principal | advisor | postdoc | phd | alumni | whatever
 	  position: a position title
 	  homepage: http://www.membersite.net
 	  googlescholar: "https://scholar.google.fr/citations?user=myuser123"
-	  orchid:  0000-0001-1234-5678
+	  orcid:    0000-0001-1234-5678
 	  github:  a github username
 	  twitter: a twitter username
 	  email:   a valid email 
 	  photo:   a filename to be found in /img/
 
-If status is `advisor` the member will be placed in the advisors section. All the other members are presented respecting the order in `members.yaml`.`name`, `status`, `position`, and `email` are mandatory fields.
+If status is `advisor` or `alumni` the member will be placed in the advisors or alumni section, respectively. All the other members are presented respecting the order in `members.yaml`.`name`, `status`, `position`, and `email` are mandatory fields.
 
 ## Update the publications list
 
 You can just copy paste the output of your JabRef and name it `publications.html` 
-However, it will appear as a stand-alone page without the menu and the style of the site. In order to fix this, add `{% include head.html %}` to the header section of your file:
+However, it will appear as a stand-alone page without the menu and the style of the site. In order to fix this, the `publicatons.html` file should be:
 
-	<head>
-	{% include head.html %}		
-	<title>JabRef References output</title>
-	... the rest of the file...
+	---
+	layout: publications
+	title: publications
+	---
 
+	<table id="qstable" border="1">
+	# Jabref content
+	</table>
 
+The JabRef file will contain a full html document. You **only** have to copy-paste the `qstable` into the above file, and the `publications` layout will do the rest.
 
 ## Add some openings 
 
@@ -48,7 +52,7 @@ Openings are hard coded in the `index.md`. Just add a new html line (see the `<l
 	<div class="row flex-items-xs-center text-xs-justify">
 	  <div class="col-md-9">
 	     <p class="text-xs-center">
-	     <ul>		     
+	     <ul>
 		   <li><h5> Open postdoc positions for <a href="http://projectfactory.irit.fr/postdoccall.pdf"> our project </a> </h5></li>
 		   <li><h5> Open PhD positions for <a href="http://projectfactory.irit.fr/phdcall.pdf"> our project </a> </h5></li>
 		 </ul>
@@ -70,26 +74,40 @@ Just add the information in the `/data/news.yaml` file:
 
 
 # For developers: Site structure 
-The complete site's content is based on a json/xml/yaml file per section (e.g., ```contact.json```, ```projects.json```, ```publications.json```, ```talks.json```, and ```teaching.json```) as well as the pages ```_config.yml``` information. 
+
+### `./`
+The root folder contains this README, a LICENSE file, a `_config.yml` to specify some general attributes of the site, and then the web pages: `index.md`, `about.md` , `publications.html`, `team.html`... Some of these files use Liquid tags from Jekyll (e.g.: `<% this is an instruction %>`) to include code snippets that will help to create the final html page. If a page in the root has extension .md, markdown content will be parsed into html and the final page will have the .html extension.
+
+### `_data/`
+Contains YAML files (JSON files are also accepted) with content that will be read and properly presented in some parts of the site (list of members, news)
+
+### `_includes/`
+Contains code snippets that can be inserted in any part of the site by using `<% include filename.html %>`
+
+### `_layouts/`
+A couple of layouts for html documents specifying margins, html headers, navigation bars, and so on.  If we want to format a page with a given layout, e.g., `section` layout, we just need to add this header to our page:
+
+	---
+	layout: section
+	---
+
+	and then write our content here
 
 
-* Each section has is own file in the root folder.
-* *_includes/* contains the html + liquid snippets that will fill the pages of the site.
+### `_saas/`
+Syntactically Awesome Style Sheets. Just some advanced CSS. 
 
-* *_data/* contains the .json files with some content (publications, contact information, team members...) to be read by, e.g., the snippets in _includes/
+### `_site/`  
+Public site automatically generated by Github after processing the Jekyll instructions (e.g.: liquid tags).
+ 
+### `css/`
+CSS files.
 
-* *_layouts*: layouts are to be used from the different pages. A layout says what goes before and after a page content (e.g.: headers, footers, navigation bars...)
+### `files/`
+pdf and other user files can be stored here. 
 
-* *_site*: public site generated by Github after processing the jekyll instructions (e.g.: liquid tags).
+### `img/`
+Images can be stored here.
 
-A page in the root, for instance, uses a layout from *_layouts* and generates some content. The content can be generated using the snippets in *_includes/*
-
-If a page in the root has extension .md, markdown content will be parsed into html and the final page will have the .html extension.
-
-The publications page needs to be manually generated since Github does noto support the jekyll-scholar plugin. A possible alternative is to this plugin locally and then add
-the resulting page in your site.
-
-To edit things online, just edit a file and commit. Github will re-generate the *_site* folder and the site will be updated.
-
-#### About this template
+----------------------
 This site is based on the templated provided by  [Daniel Limberger](http://www.daniellimberger.de). Original source code and instructions can be found [here](https://github.com/cboettig/labnotebook)

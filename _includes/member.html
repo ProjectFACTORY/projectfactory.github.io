@@ -1,18 +1,16 @@
-<!--<div class="col-lg-6 col-md-6 col-sm-6" style='text-align:center'>-->
+{% if m.photo %}<img class="rounded img-fluid"  src="/img/{{m.photo}}"  width="150px" height="150px">{% endif %}
 
-  {% if m.photo %}<img class="rounded img-fluid"  src="/img/{{m.photo}}"  width="150px" height="150px">{% endif %}
-
-  <h5 class="mt-1" > <a href="{{m.homepage}}">{{ m.name | escape }}</a></h5>
-  <p>{{m.position}}
-	  {% if m.status == "principal" %}
-		  <br> <em>Principal Investigator</em>
-		  <br> {% include sociallinks.html %}
-	  {% endif %}
-	  {% unless m.status == "principal" or m.status == "alumni" %}
-			<br> {% include sociallinks.html %}
-	  {% endunless %}
-	  {% if m.status == "alumni" %}
-		  <br> <em>currently at {{m.current}} </em>
-		  <br> {% include sociallinks.html %}
-	  {% endif %}
-	</p>
+<h5 class="mt-1" > <a href="{{m.homepage}}">{{ m.name | escape }}</a></h5>
+<p>{{m.position}}
+  {% if m.status == "principal" %}
+	  <br> <em>Principal Investigator</em>
+	  <br> {% include sociallinks.html %}
+  {% endif %}
+  {% unless m.status == "principal" or m.status == "alumni" %}
+		<br> {% include sociallinks.html %}
+  {% endunless %}
+  {% if m.status == "alumni" %}
+	  <br> <em>currently at {{m.current}} </em>
+	  <br> {% include sociallinks.html %}
+  {% endif %}
+</p>
