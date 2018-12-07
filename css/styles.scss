@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  color: #000
+  color: #000;
 }
 
 p {
@@ -119,7 +119,7 @@ header {
 
 @media (min-width: 75em) {
 .container {
-    max-width: 60rem;
+    max-width: 60rem; /* originally 60rem */
 }}
 
 section {
