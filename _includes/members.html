@@ -7,6 +7,8 @@ img {
 </style>
 
 <div class="flex-items-md-center text-md-center">
+
+
 <div class="row col-md-12">
 {% for m in members %}
 {% unless m.status == 'advisor'%}
@@ -26,22 +28,19 @@ img {
   {% if m.status == 'advisor' %}
   <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
     {% include member.html %}
-   </div>
+  </div>
 
   {% endif %}
 {% endfor %}
 </div>
 
 <h1>alumni</h1>
-{% for m in members %}
-  {% if m.status == 'alumni' %}
-  <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
-    {% include member.html %}
-   </div>
-  {% endif %}
-{% endfor %}
+<div class="row col-md-12">
+    {% for m in members %}
+    {% if m.status == 'alumni' %}
+    <div class="col-lg-4 col-md-4 col-sm-6 mb-1" style='text-align:center'>
+        {% include member.html %}
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
-
-
-</div>
-<!--</div>-->

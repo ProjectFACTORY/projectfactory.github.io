@@ -3,7 +3,7 @@ safe: false
 encoding: utf-8
 
 # Plugins
-gems: ['jekyll/scholar']
+plugins: ['jekyll/scholar']
 
 # Build settings
 markdown: kramdown
