@@ -24,7 +24,7 @@
 
     
 - name: Herwig Wendt
-  status: advisor
+  status: alumni
   position: CNRS Researcher
   homepage: "https://www.irit.fr/~Herwig.Wendt/"
   googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=fr"
@@ -39,23 +39,21 @@
 
    
 - name: Alberto Lumbreras
-  status: postdoc
+  status: alumni
   position: Postdoc researcher
+  current: Criteo
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
   orcid: 0000-0002-1860-0763
   github: alumbreras
   twitter: albertlumbreras
-  email: alberto.lumbreras@irit.fr
   photo: alberto.jpg
 
 
 - name: Dylan Fagot
   status: alumni
   position: PhD Student
-  current: SII
-  homepage : https://www.irit.fr/~Dylan.Fagot/
-  email: dylan.fagot@irit.fr
+  current: SII  
   photo: dylan.jpg
   googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=fr&oi=ao"
 
