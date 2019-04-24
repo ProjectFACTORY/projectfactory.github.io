@@ -50,17 +50,12 @@ layout: section
      <ul>		     
 		<li><h5> 			
 			<a href="http://projectfactory.irit.fr/files/postdoc2019a.pdf"> Postdoc position </a> on Bayesian deep learning (co-supervised with <a href="http://dobigeon.perso.enseeiht.fr/"> Nicolas Dobigeon </a>) 						
-		</h5></li>
-	     
+		</h5></li>	     
 		<li><h5> 			
-			<a href="http://projectfactory.irit.fr/files/postdoc2019b.pdf"> Postdoc position </a> on Multimodal data processing for multimedia artistic creation (co-supervised with <a href="http://www.timvandecruys.be/"> Tim Van de Cruys </a>) 					
-		</h5></li>
-	     
+			<a href="http://projectfactory.irit.fr/files/postdoc2019b.pdf"> Postdoc position </a> on Multimodal data processing for multimedia artistic creation (co-supervised with <a href="http://www.timvandecruys.be/"> Tim Van de Cruys </a>) 			</h5></li>	     
 		<li><h5> 			
 			<a href="http://projectfactory.irit.fr/files/postdoc2019c.pdf"> Postdoc position </a> on representation learning at large (dictionary learning, matrix factorisation, deep nets) 						
 		</h5></li>
-	     
-
 	 </ul>
     </p>
   </div>
