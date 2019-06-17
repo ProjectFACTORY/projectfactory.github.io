@@ -35,6 +35,7 @@ layout: section
 
 ---
 
+<!--
 <!-- OPENINGS SECTION -->
 
 <section id="openings" class="container" style='padding-top:0rem; margin-top:-2rem;'>
@@ -61,7 +62,7 @@ layout: section
   </div>
 </div>
 </section>
-
+-->
 
 <!-- NEWS SECTION -->
 <!-- The content is taken from the data files -->
