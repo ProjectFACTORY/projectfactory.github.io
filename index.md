@@ -35,16 +35,15 @@ layout: section
 
 ---
 
-<!--
-<!-- OPENINGS SECTION -->
 
+<!-- OPENINGS SECTION -->
+<!--
 <section id="openings" class="container" style='padding-top:0rem; margin-top:-2rem;'>
 <div class="row text-xs-center">
   <div class="col-xs">
     <h1>openings</h1>
   </div>
 </div>
-
 <div class="row flex-items-xs-center text-xs-justify">
   <div class="col-md-9">
      <p class="text-xs-center">
