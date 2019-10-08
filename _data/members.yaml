@@ -17,11 +17,17 @@
     
 - name: Thomas Oberlin
   status : advisor
-  position: Assoc. Prof. (Toulouse INP)
+  position: Assoc. Prof. (Toulouse INP & ISAE)
   homepage: http://oberlin.perso.enseeiht.fr/
   googlescholar: "https://scholar.google.dk/citations?user=iqotTk4AAAAJ&hl=en"
   photo: thomas.jpg
 
+- name: Emmanuel Soubies
+  status: advisor
+  position: CNRS Researcher
+  homepage: "https://www.irit.fr/~Emmanuel.Soubies/"
+  googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
+  photo: emmanuel.png
     
 - name: Herwig Wendt
   status: alumni
@@ -33,15 +39,22 @@
 
 - name: Dana Lahat
   status: postdoc
-  position: Postdoc researcher
-  googlescholar: https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr
+  position: Postdoc Researcher
+  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr"
+  homepage: "https://www.irit.fr/~Dana.Lahat/"
   email: dana.lahat@irit.fr
   photo: dana.jpg
+
+- name: Sixin Zhang
+  status: postdoc
+  position: Postdoc Researcher
+  email: sixin.zhang@irit.fr
+  photo: sixin.jpg
 
    
 - name: Alberto Lumbreras
   status: alumni
-  position: Postdoc researcher
+  position: Postdoc Researcher
   current: Criteo
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
@@ -71,6 +84,7 @@
 - name: Olivier Gouvert
   status: phd
   position: PhD Student
+  googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
   email: olivier.gouvert@irit.fr
   photo: olivier.jpg
   
