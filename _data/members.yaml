@@ -27,7 +27,7 @@
 - name: Emmanuel Soubies
   status: advisor
   position: CNRS Researcher
-  email: email: "emmanuel (dot) soubies (at) irit (dot) fr"
+  email: "emmanuel (dot) soubies (at) irit (dot) fr"
   homepage: "https://www.irit.fr/~Emmanuel.Soubies"
   googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
   photo: emmanuel.jpg
@@ -45,21 +45,21 @@
   status: postdoc
   position: Postdoc Researcher
   googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en&oi=ao"
-  email: email: "paul (dot) magron (at) irit (dot) fr"
+  email: "paul (dot) magron (at) irit (dot) fr"
   photo: paul.jpg
   
 
 - name: Sixin Zhang
   status: postdoc
   position: Postdoc Researcher
-  email: email: "sixin (dot) zhang (at) irit (dot) fr"
+  email: "sixin (dot) zhang (at) irit (dot) fr"
   photo: sixin.jpg
    
     
 - name: Louis Filstroff
   status: phd
   position: PhD Student
-  email: email: "louis (dot) filstroff (at) irit (dot) fr"
+  email: "louis (dot) filstroff (at) irit (dot) fr"
   photo: louis.jpg
   googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
   homepage: https://lfilstro.github.io/
@@ -68,20 +68,20 @@
   status: phd
   position: PhD Student
   googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
-  email: email: "olivier (dot) gouver (at) irit (dot) fr"
+  email: "olivier (dot) gouver (at) irit (dot) fr"
   photo: olivier.jpg
   
 - name: Camille Castera
   status: phd
   position: PhD Student
   googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en&oi=ao"
-  email: email: "camille (dot) castera (at) irit (dot) fr"
+  email: "camille (dot) castera (at) irit (dot) fr"
   photo: camille.jpg
 
 - name: Pierre-Hugo Vial
   status: phd
   position: PhD Student
-  email: email: "pierre-hugo (dot) vial (at) irit (dot) fr"
+  email: "pierre-hugo (dot) vial (at) irit (dot) fr"
   photo: pierrehugo.jpg
 
 - name: Dylan Fagot
