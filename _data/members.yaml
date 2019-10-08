@@ -27,15 +27,8 @@
   position: CNRS Researcher
   homepage: "https://www.irit.fr/~Emmanuel.Soubies/"
   googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
-  photo: emmanuel.png
+  photo: emmanuel.jpg
     
-- name: Herwig Wendt
-  status: alumni
-  current: IRIT/MINDS
-  position: CNRS Researcher
-  homepage: "https://www.irit.fr/~Herwig.Wendt/"
-  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=fr"
-  photo: herwig.jpg
 
 - name: Dana Lahat
   status: postdoc
@@ -44,6 +37,14 @@
   homepage: "https://www.irit.fr/~Dana.Lahat/"
   email: dana.lahat@irit.fr
   photo: dana.jpg
+  
+- name: Paul Magron
+  status: postdoc
+  position: Postdoc Researcher
+  googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en&oi=ao"
+  email: paul.magron@irit.fr
+  photo: paul.jpg
+  
 
 - name: Sixin Zhang
   status: postdoc
@@ -52,24 +53,6 @@
   photo: sixin.jpg
 
    
-- name: Alberto Lumbreras
-  status: alumni
-  position: Postdoc Researcher
-  current: Criteo
-  homepage: http://www.albertolumbreras.net
-  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
-  orcid: 0000-0002-1860-0763
-  github: alumbreras
-  twitter: albertlumbreras
-  photo: alberto.jpg
-
-
-- name: Dylan Fagot
-  status: alumni
-  position: PhD Student
-  current: SII  
-  photo: dylan.jpg
-  googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=fr&oi=ao"
 
     
 - name: Louis Filstroff
@@ -79,8 +62,7 @@
   photo: louis.jpg
   googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
   homepage: https://lfilstro.github.io/
-
-
+  
 - name: Olivier Gouvert
   status: phd
   position: PhD Student
@@ -91,5 +73,38 @@
 - name: Camille Castera
   status: phd
   position: PhD Student
+  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en&oi=ao"
   email: camille.castera@irit.fr
   photo: camille.jpg
+
+- name: Pierre-Hugo Vial
+  status: phd
+  position: PhD Student
+  email: pierre-hugo.vial@irit.fr
+  photo: pierrehugo.jpg
+
+- name: Dylan Fagot
+  status: alumni
+  position: PhD Student
+  current: SII  
+  photo: dylan.jpg
+  googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=fr&oi=ao"
+
+- name: Herwig Wendt
+  status: alumni
+  current: IRIT/MINDS
+  position: CNRS Researcher
+  homepage: "https://www.irit.fr/~Herwig.Wendt/"
+  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=fr"
+  photo: herwig.jpg
+
+- name: Alberto Lumbreras
+  status: alumni
+  position: Postdoc Researcher
+  current: Criteo
+  homepage: http://www.albertolumbreras.net
+  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
+  orcid: 0000-0002-1860-0763
+  github: alumbreras
+  twitter: albertlumbreras
+  photo: alberto.jpg
