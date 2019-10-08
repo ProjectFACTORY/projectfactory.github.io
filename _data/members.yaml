@@ -1,7 +1,7 @@
 - name: Cédric Févotte
   status: principal
   position: CNRS Senior Researcher
-  homepage: "https://www.irit.fr/~Cedric.Fevotte/"
+  homepage: "https://www.irit.fr/~Cedric.Fevotte"
   email: "cedric (dot) fevotte (at) irit (dot) fr"
   googlescholar: "https://scholar.google.dk/citations?user=kAWEUq0AAAAJ&hl=en"
   photo: cedric.jpg
@@ -10,7 +10,8 @@
 - name: Nicolas Dobigeon
   status: advisor
   position: Professor (Toulouse INP)
-  homepage: http://dobigeon.perso.enseeiht.fr/
+  email: "nicolas (dot) dobigeon (at) irit (dot) fr"
+  homepage: "http://dobigeon.perso.enseeiht.fr"
   googlescholar: "https://scholar.google.dk/citations?user=YPQFwDYAAAAJ&hl=en"
   photo: nico.png
 
@@ -18,14 +19,16 @@
 - name: Thomas Oberlin
   status : advisor
   position: Assoc. Prof. (Toulouse INP & ISAE)
-  homepage: http://oberlin.perso.enseeiht.fr/
+  email: email: "thomas (dot) oberlin (at) irit (dot) fr"
+  homepage: "http://oberlin.perso.enseeiht.fr/"
   googlescholar: "https://scholar.google.dk/citations?user=iqotTk4AAAAJ&hl=en"
   photo: thomas.jpg
 
 - name: Emmanuel Soubies
   status: advisor
   position: CNRS Researcher
-  homepage: "https://www.irit.fr/~Emmanuel.Soubies/"
+  email: email: "emmanuel (dot) soubies (at) irit (dot) fr"
+  homepage: "https://www.irit.fr/~Emmanuel.Soubies"
   googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
   photo: emmanuel.jpg
     
@@ -34,31 +37,29 @@
   status: postdoc
   position: Postdoc Researcher
   googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr"
-  homepage: "https://www.irit.fr/~Dana.Lahat/"
-  email: dana.lahat@irit.fr
+  homepage: "https://www.irit.fr/~Dana.Lahat"
+  email: email: "dana (dot) lahat (at) irit (dot) fr"
   photo: dana.jpg
   
 - name: Paul Magron
   status: postdoc
   position: Postdoc Researcher
   googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en&oi=ao"
-  email: paul.magron@irit.fr
+  email: email: "paul (dot) magron (at) irit (dot) fr"
   photo: paul.jpg
   
 
 - name: Sixin Zhang
   status: postdoc
   position: Postdoc Researcher
-  email: sixin.zhang@irit.fr
+  email: email: "sixin (dot) zhang (at) irit (dot) fr"
   photo: sixin.jpg
-
    
-
     
 - name: Louis Filstroff
   status: phd
   position: PhD Student
-  email: louis.filstroff@irit.fr
+  email: email: "louis (dot) filstroff (at) irit (dot) fr"
   photo: louis.jpg
   googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
   homepage: https://lfilstro.github.io/
@@ -67,20 +68,20 @@
   status: phd
   position: PhD Student
   googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
-  email: olivier.gouvert@irit.fr
+  email: email: "olivier (dot) gouver (at) irit (dot) fr"
   photo: olivier.jpg
   
 - name: Camille Castera
   status: phd
   position: PhD Student
   googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en&oi=ao"
-  email: camille.castera@irit.fr
+  email: email: "camille (dot) castera (at) irit (dot) fr"
   photo: camille.jpg
 
 - name: Pierre-Hugo Vial
   status: phd
   position: PhD Student
-  email: pierre-hugo.vial@irit.fr
+  email: email: "pierre-hugo (dot) vial (at) irit (dot) fr"
   photo: pierrehugo.jpg
 
 - name: Dylan Fagot
@@ -104,7 +105,4 @@
   current: Criteo
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
-  orcid: 0000-0002-1860-0763
-  github: alumbreras
-  twitter: albertlumbreras
   photo: alberto.jpg
