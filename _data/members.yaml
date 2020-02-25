@@ -54,22 +54,13 @@
   email: "paul (dot) magron (at) irit (dot) fr"
   photo: paul.jpg
 
-    
-- name: Louis Filstroff
-  status: phd
-  position: PhD Student
-  email: "louis (dot) filstroff (at) irit (dot) fr"
-  photo: louis.jpg
-  googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
-  homepage: https://lfilstro.github.io/
-  
-- name: Olivier Gouvert
-  status: phd
-  position: PhD Student
-  googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
-  email: "olivier (dot) gouver (at) irit (dot) fr"
-  photo: olivier.jpg
-  
+- name: Cássio Fraga Dantas
+  status: postdoc
+  position: Postdoc Researcher
+  googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl"
+  email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
+  photo: cassio.jpg
+      
 - name: Camille Castera
   status: phd
   position: PhD Student
@@ -106,3 +97,16 @@
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
   photo: alberto.jpg
+
+- name: Louis Filstroff
+  status: alumni
+  position: PhD Student 
+  photo: louis.jpg
+  googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
+  homepage: https://lfilstro.github.io/
+  
+- name: Olivier Gouvert
+  status: alumni
+  position: PhD Student
+  googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
+  photo: olivier.jpg
