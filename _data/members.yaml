@@ -31,16 +31,7 @@
   homepage: "https://www.irit.fr/~Emmanuel.Soubies"
   googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
   photo: emmanuel.jpg
-    
-
-- name: Dana Lahat
-  status: postdoc
-  position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr"
-  homepage: "https://www.irit.fr/~Dana.Lahat"
-  email: "dana (dot) lahat (at) irit (dot) fr"
-  photo: dana.jpg
-  
+      
 - name: Sixin Zhang
   status: postdoc
   position: Postdoc Researcher
@@ -100,7 +91,8 @@
 
 - name: Louis Filstroff
   status: alumni
-  position: PhD Student 
+  position: PhD Student
+  current: Univ. Aalto
   photo: louis.jpg
   googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
   homepage: https://lfilstro.github.io/
@@ -108,5 +100,13 @@
 - name: Olivier Gouvert
   status: alumni
   position: PhD Student
+  current: MILA Montreal
   googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
   photo: olivier.jpg
+  
+- name: Dana Lahat
+  status: alumni
+  position: Postdoc Researcher
+  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr"
+  photo: dana.jpg
+
