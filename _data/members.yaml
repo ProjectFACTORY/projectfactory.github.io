@@ -15,6 +15,13 @@
   googlescholar: "https://scholar.google.dk/citations?user=YPQFwDYAAAAJ&hl=en"
   photo: nico.png
 
+- name: Henrique Goulart
+  status: advisor
+  position: Assoc. Prof. (Toulouse INP)
+  email: "josehenrique (dot) demoraisgoulart (at) toulouse-inp (dot) fr"  
+  homepage: "https://sites.google.com/site/jhgoulart/home"
+  googlescholar: "https://scholar.google.com.br/citations?user=IWj6KeoAAAAJ&hl=en"
+  photo: henrique.jpg
     
 - name: Thomas Oberlin
   status : advisor
@@ -32,21 +39,21 @@
   googlescholar: "https://scholar.google.com.br/citations?user=OouTPC0AAAAJ&hl=en"
   photo: emmanuel.jpg
 
-- name: Henrique Goulart
-  status: advisor
-  position: Assoc. Prof. (Toulouse INP)
-  email: "josehenrique (dot) demoraisgoulart (at) toulouse-inp (dot) fr"  
-  homepage: "https://sites.google.com/site/jhgoulart/home"
-  googlescholar: "https://scholar.google.com.br/citations?user=IWj6KeoAAAAJ&hl=en"
-  photo: henrique.jpg
-        
-- name: Sixin Zhang
+
+- name: Camille Castera
+  status: phd
+  position: PhD Student
+  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
+  email: "camille (dot) castera (at) irit (dot) fr"
+  photo: camille.jpg
+  homepage: "https://camcastera.github.io/"
+
+- name: Cássio Fraga Dantas
   status: postdoc
   position: Postdoc Researcher
-  email: "sixin (dot) zhang (at) irit (dot) fr"
-  googlescholar: "https://scholar.google.com/citations?user=-cL9xWMAAAAJ&hl=en"
-  homepage: "https://www.irit.fr/~Sixin.Zhang/"
-  photo: sixin.jpg
+  googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl=en"
+  email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
+  photo: cassio.jpg
 
 - name: Paul Magron
   status: postdoc
@@ -56,34 +63,27 @@
   email: "paul (dot) magron (at) irit (dot) fr"
   photo: paul.jpg
 
-- name: Cássio Fraga Dantas
-  status: postdoc
-  position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl=en"
-  email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
-  photo: cassio.jpg
-  
 - name: Arthur Marmin
   status: postdoc
   position: Postdoc Researcher
   homepage: "https://arthurmarmin.github.io/"
   email: "arthur (dot) marmin (at) irit (dot) fr"
   photo: arthur.jpg
-  
-      
-- name: Camille Castera
-  status: phd
-  position: PhD Student
-  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
-  email: "camille (dot) castera (at) irit (dot) fr"
-  photo: camille.jpg
-  homepage: "https://camcastera.github.io/"
-
+        
 - name: Pierre-Hugo Vial
   status: phd
   position: PhD Student
   email: "pierre-hugo (dot) vial (at) irit (dot) fr"
   photo: pierrehugo.jpg
+
+- name: Sixin Zhang
+  status: postdoc
+  position: Postdoc Researcher
+  email: "sixin (dot) zhang (at) irit (dot) fr"
+  googlescholar: "https://scholar.google.com/citations?user=-cL9xWMAAAAJ&hl=en"
+  homepage: "https://www.irit.fr/~Sixin.Zhang/"
+  photo: sixin.jpg
+
 
 - name: Dylan Fagot
   status: alumni
@@ -91,22 +91,6 @@
   current: Akka Technologies  
   photo: dylan.jpg
   googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=en"
-
-- name: Herwig Wendt
-  status: alumni
-  current: IRIT/MINDS
-  position: CNRS Researcher
-  homepage: "https://www.irit.fr/~Herwig.Wendt/"
-  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=en"
-  photo: herwig.jpg
-
-- name: Alberto Lumbreras
-  status: alumni
-  position: Postdoc Researcher
-  current: Criteo
-  homepage: http://www.albertolumbreras.net
-  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=en"
-  photo: alberto.jpg
 
 - name: Louis Filstroff
   status: alumni
@@ -129,4 +113,20 @@
   googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=en"
   photo: dana.jpg
   current: Tel-Aviv
+
+- name: Alberto Lumbreras
+  status: alumni
+  position: Postdoc Researcher
+  current: Criteo
+  homepage: http://www.albertolumbreras.net
+  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=en"
+  photo: alberto.jpg
+
+- name: Herwig Wendt
+  status: alumni
+  current: IRIT/MINDS
+  position: CNRS Researcher
+  homepage: "https://www.irit.fr/~Herwig.Wendt/"
+  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=en"
+  photo: herwig.jpg
 
