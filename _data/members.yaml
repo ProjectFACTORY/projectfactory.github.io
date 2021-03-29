@@ -51,14 +51,15 @@
 - name: Paul Magron
   status: postdoc
   position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en&oi=ao"
+  googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en"
+  homepage: "https://magronp.github.io/"
   email: "paul (dot) magron (at) irit (dot) fr"
   photo: paul.jpg
 
 - name: Cássio Fraga Dantas
   status: postdoc
   position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl"
+  googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl=en"
   email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
   photo: cassio.jpg
   
@@ -66,14 +67,14 @@
   status: postdoc
   position: Postdoc Researcher
   homepage: "https://arthurmarmin.github.io/"
-  email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
-  photo: cassio.jpg
+  email: "arthur (dot) marmin (at) irit (dot) fr"
+  photo: arthur.jpg
   
       
 - name: Camille Castera
   status: phd
   position: PhD Student
-  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en&oi=ao"
+  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
   email: "camille (dot) castera (at) irit (dot) fr"
   photo: camille.jpg
   homepage: "https://camcastera.github.io/"
@@ -89,14 +90,14 @@
   position: PhD Student
   current: Akka Technologies  
   photo: dylan.jpg
-  googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=fr&oi=ao"
+  googlescholar: "https://scholar.google.fr/citations?user=bcES99QAAAAJ&hl=en"
 
 - name: Herwig Wendt
   status: alumni
   current: IRIT/MINDS
   position: CNRS Researcher
   homepage: "https://www.irit.fr/~Herwig.Wendt/"
-  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=fr"
+  googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=en"
   photo: herwig.jpg
 
 - name: Alberto Lumbreras
@@ -104,7 +105,7 @@
   position: Postdoc Researcher
   current: Criteo
   homepage: http://www.albertolumbreras.net
-  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=fr"
+  googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=en"
   photo: alberto.jpg
 
 - name: Louis Filstroff
@@ -112,19 +113,19 @@
   position: PhD Student
   current: Aalto University
   photo: louis.jpg
-  googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=fr&oi=ao"
+  googlescholar: "https://scholar.google.fr/citations?user=fz8rPgUAAAAJ&hl=en"
   homepage: https://lfilstro.github.io/
   
 - name: Olivier Gouvert
   status: alumni
   position: PhD Student
   current: MILA Montreal
-  googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=fr"
+  googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=en"
   photo: olivier.jpg
   
 - name: Dana Lahat
   status: alumni
   position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=fr"
+  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=en"
   photo: dana.jpg
 
