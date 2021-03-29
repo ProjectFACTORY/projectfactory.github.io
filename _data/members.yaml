@@ -1,6 +1,6 @@
 - name: Cédric Févotte
   status: principal
-  position: CNRS Senior Researcher
+  position: CNRS Research Director
   homepage: "https://www.irit.fr/~Cedric.Fevotte"
   email: "cedric (dot) fevotte (at) irit (dot) fr"
   googlescholar: "https://scholar.google.dk/citations?user=kAWEUq0AAAAJ&hl=en"
@@ -19,23 +19,33 @@
 - name: Thomas Oberlin
   status : advisor
   position: Assoc. Prof. (ISAE & Toulouse INP)
-  email: "thomas (dot) oberlin (at) irit (dot) fr"
-  homepage: "http://oberlin.perso.enseeiht.fr/"
+  email: "thomas (dot) oberlin (at) isae-supaero (dot) fr"
+  homepage: "https://personnel.isae-supaero.fr/thomas-oberlin/"
   googlescholar: "https://scholar.google.dk/citations?user=iqotTk4AAAAJ&hl=en"
   photo: thomas.jpg
 
 - name: Emmanuel Soubies
   status: advisor
   position: CNRS Researcher
-  email: "emmanuel (dot) soubies (at) irit (dot) fr"
+  email: "emmanuel (dot) soubies (at) irit (dot) fr"  
   homepage: "https://www.irit.fr/~Emmanuel.Soubies"
-  googlescholar: "https://scholar.google.com/citations?user=OouTPC0AAAAJ&hl=en&oi=sra"
+  googlescholar: "https://scholar.google.com.br/citations?user=OouTPC0AAAAJ&hl=en"
   photo: emmanuel.jpg
-      
+
+- name: Henrique Goulart
+  status: advisor
+  position: Assoc. Prof. (Toulouse INP)
+  email: "josehenrique (dot) demoraisgoulart (at) toulouse-inp (dot) fr"  
+  homepage: "https://sites.google.com/site/jhgoulart/home"
+  googlescholar: "https://scholar.google.com.br/citations?user=IWj6KeoAAAAJ&hl=en"
+  photo: henrique.jpg
+        
 - name: Sixin Zhang
   status: postdoc
   position: Postdoc Researcher
   email: "sixin (dot) zhang (at) irit (dot) fr"
+  googlescholar: "https://scholar.google.com/citations?user=-cL9xWMAAAAJ&hl=en"
+  homepage: "https://www.irit.fr/~Sixin.Zhang/"
   photo: sixin.jpg
 
 - name: Paul Magron
@@ -51,6 +61,14 @@
   googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl"
   email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
   photo: cassio.jpg
+  
+- name: Arthur Marmin
+  status: postdoc
+  position: Postdoc Researcher
+  homepage: "https://arthurmarmin.github.io/"
+  email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
+  photo: cassio.jpg
+  
       
 - name: Camille Castera
   status: phd
