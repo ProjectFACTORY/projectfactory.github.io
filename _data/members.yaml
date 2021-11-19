@@ -55,14 +55,6 @@
   email: "cassio (dot) fraga-dantas (at) irit (dot) fr"
   photo: cassio.jpg
 
-- name: Paul Magron
-  status: postdoc
-  position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en"
-  homepage: "https://magronp.github.io/"
-  email: "paul (dot) magron (at) irit (dot) fr"
-  photo: paul.jpg
-
 - name: Arthur Marmin
   status: postdoc
   position: Postdoc Researcher
@@ -75,14 +67,6 @@
   position: PhD Student
   email: "pierre-hugo (dot) vial (at) irit (dot) fr"
   photo: pierrehugo.jpg
-
-- name: Sixin Zhang
-  status: postdoc
-  position: Postdoc Researcher
-  email: "sixin (dot) zhang (at) irit (dot) fr"
-  googlescholar: "https://scholar.google.com/citations?user=-cL9xWMAAAAJ&hl=en"
-  homepage: "https://www.irit.fr/~Sixin.Zhang/"
-  photo: sixin.jpg
 
 
 - name: Dylan Fagot
@@ -107,13 +91,6 @@
   googlescholar: "https://scholar.google.fr/citations?user=sTfIWd0AAAAJ&hl=en"
   photo: olivier.jpg
   
-- name: Dana Lahat
-  status: alumni
-  position: Postdoc Researcher
-  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=en"
-  photo: dana.jpg
-  current: Tel-Aviv
-
 - name: Alberto Lumbreras
   status: alumni
   position: Postdoc Researcher
@@ -121,6 +98,32 @@
   homepage: http://www.albertolumbreras.net
   googlescholar: "https://scholar.google.fr/citations?user=nQZ3m_EAAAAJ&hl=en"
   photo: alberto.jpg
+  
+- name: Dana Lahat
+  status: alumni
+  position: Postdoc Researcher
+  googlescholar: "https://scholar.google.com/citations?user=-Yd_Kf0AAAAJ&hl=en"
+  photo: dana.jpg
+  current: Tel-Aviv  
+
+- name: Sixin Zhang
+  status: alumni
+  position: Postdoc Researcher
+  current: IRIT/APO (MCF)
+  email: "sixin (dot) zhang (at) irit (dot) fr"
+  googlescholar: "https://scholar.google.com/citations?user=-cL9xWMAAAAJ&hl=en"
+  homepage: "https://www.irit.fr/~Sixin.Zhang/"
+  photo: sixin.jpg
+
+
+- name: Paul Magron
+  status: alumni
+  position: Postdoc Researcher
+  current: INRIA Nancy (CR)
+  googlescholar: "https://scholar.google.com/citations?user=67-Uh0cAAAAJ&hl=en"
+  homepage: "https://magronp.github.io/"
+  email: "paul (dot) magron (at) irit (dot) fr"
+  photo: paul.jpg
 
 - name: Herwig Wendt
   status: alumni
