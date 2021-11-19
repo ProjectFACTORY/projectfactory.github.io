@@ -40,14 +40,6 @@
   photo: emmanuel.jpg
 
 
-- name: Camille Castera
-  status: phd
-  position: PhD Student
-  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
-  email: "camille (dot) castera (at) irit (dot) fr"
-  photo: camille.jpg
-  homepage: "https://camcastera.github.io/"
-
 - name: Cássio Fraga Dantas
   status: postdoc
   position: Postdoc Researcher
@@ -61,7 +53,16 @@
   homepage: "https://arthurmarmin.github.io/"
   email: "arthur (dot) marmin (at) irit (dot) fr"
   photo: arthur.jpg
-        
+
+- name: Camille Castera
+  status: phd
+  position: PhD Student
+  googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
+  email: "camille (dot) castera (at) irit (dot) fr"
+  photo: camille.jpg
+  homepage: "https://camcastera.github.io/"
+
+
 - name: Pierre-Hugo Vial
   status: phd
   position: PhD Student
