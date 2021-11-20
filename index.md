@@ -32,6 +32,3 @@ layout: section
 		</div>
 	</div>
 </section>
-
----
-
