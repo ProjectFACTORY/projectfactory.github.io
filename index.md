@@ -66,6 +66,7 @@ layout: section
 <!-- NEWS SECTION -->
 <!-- The content is taken from the data files -->
 
+<!-- comment news
 <section id="news" class="container" style='padding-top:0rem; margin-top:-2rem;'>
 <div class="row text-xs-center">
   <div class="col-xs">
@@ -74,3 +75,4 @@ layout: section
 </div>
 {% include news.html %}
 </section>
+-->
