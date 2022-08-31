@@ -39,13 +39,6 @@
   googlescholar: "https://scholar.google.com.br/citations?user=OouTPC0AAAAJ&hl=en"
   photo: emmanuel.jpg
 
-- name: Arthur Marmin
-  status: postdoc
-  current: Univ. Aix-Marseille (MCF)
-  position: Postdoc Researcher (now MCF at Aix-Marseille Univ.)
-  homepage: "https://arthurmarmin.github.io/"
-  email: "arthur (dot) marmin (at) irit (dot) fr"
-  photo: arthur.jpg
 
 - name: Pierre-Hugo Vial
   status: phd
@@ -126,7 +119,15 @@
   current: INRAE Montpellier (CR)
   googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl=en"
   photo: cassio.jpg
-  
+ 
+ - name: Arthur Marmin
+  status: alumni
+  position: Postdoc Researcher  
+  current: Univ. Aix-Marseille (MCF)
+  homepage: "https://arthurmarmin.github.io/"
+  email: "arthur (dot) marmin (at) irit (dot) fr"
+  photo: arthur.jpg
+    
 
 - name: Herwig Wendt
   status: alumni
