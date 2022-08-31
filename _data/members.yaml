@@ -120,7 +120,7 @@
   googlescholar: "https://scholar.google.com/citations?user=YgcZQpgAAAAJ&hl=en"
   photo: cassio.jpg
  
- - name: Arthur Marmin
+- name: Arthur Marmin
   status: alumni
   position: Postdoc Researcher  
   current: Univ. Aix-Marseille (MCF)
@@ -128,7 +128,6 @@
   email: "arthur (dot) marmin (at) irit (dot) fr"
   photo: arthur.jpg
     
-
 - name: Herwig Wendt
   status: alumni
   current: IRIT/MINDS
@@ -136,4 +135,3 @@
   homepage: "https://www.irit.fr/~Herwig.Wendt/"
   googlescholar: "https://scholar.google.fr/citations?user=mvem8GUAAAAJ&hl=en"
   photo: herwig.jpg
-
