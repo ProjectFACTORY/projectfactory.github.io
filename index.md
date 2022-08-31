@@ -24,7 +24,7 @@ layout: section
 			<p class="lead" style='font-weight: bold;'>New paradigms for latent factor estimation <br> </p>
 
 			<p class="text-xs-left">
-		     FACTORY is a scientific project funded by the <a href='https://erc.europa.eu/'> European Research Council </a>
+		     FACTORY was a scientific project funded by the <a href='https://erc.europa.eu/'> European Research Council </a>
 		     under a Consolidator Grant (2016-2022) and coordinated by 
 		     <a href='https://www.irit.fr/~Cedric.Fevotte/'>Cédric Févotte</a> (<a href='http://www.cnrs.fr/en/aboutcnrs/overview.htm'>CNRS</a>) at the <a href='https://www.irit.fr/An-institute-an-ambition-a-dynamic,1156'>Institut de Recherche en Informatique de Toulouse (IRIT)</a>, France.		  
 		     <br>		  
