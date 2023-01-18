@@ -40,13 +40,6 @@
   photo: emmanuel.jpg
 
 
-- name: Pierre-Hugo Vial
-  status: phd
-  position: PhD Student
-  email: "pierre-hugo (dot) vial (at) irit (dot) fr"
-  photo: pierrehugo.jpg
-
-
 - name: Dylan Fagot
   status: alumni
   position: PhD Student
@@ -76,6 +69,14 @@
   googlescholar: "https://scholar.google.com/citations?user=FjQAMMUAAAAJ&hl=en"
   photo: camille.jpg
   homepage: "https://camcastera.github.io/"
+  
+  - name: Pierre-Hugo Vial
+  status: alumni
+  position: PhD Student
+  current: IRCAM
+  photo: pierrehugo.jpg
+  googlescholar: "https://scholar.google.com/citations?user=Fx6U0CIAAAAJ&hl=fr&oi=en"
+
   
   
 - name: Alberto Lumbreras
